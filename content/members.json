@@ -1,0 +1,109 @@
+[
+  {
+    "name": "王継者",
+    "group": "doctoral",
+    "image": "source-p3-1.webp",
+    "topic": "decision"
+  },
+  {
+    "name": "Taiwei Li",
+    "group": "coadvised",
+    "image": "source-p3-2.webp",
+    "topic": "decision",
+    "native_name": "李泰維",
+    "affiliation": {
+      "ja": [
+        "東京科学大学",
+        "工学院 システム制御系",
+        "早川研究室"
+      ],
+      "en": [
+        "Institute of Science Tokyo",
+        "School of Engineering · Department of Systems and Control Engineering",
+        "Hayakawa Laboratory"
+      ],
+      "zh": [
+        "东京科学大学",
+        "工学院 系统控制系",
+        "早川研究室"
+      ]
+    }
+  },
+  {
+    "name": "朱冠瑜",
+    "group": "doctoral",
+    "image": "source-p3-3.webp",
+    "topic": "forecast"
+  },
+  {
+    "name": "G. Babusurya",
+    "group": "doctoral",
+    "image": "source-p3-4.webp",
+    "topic": "forecast"
+  },
+  {
+    "name": "王躍鵬",
+    "group": "doctoral",
+    "image": "source-p3-5.webp",
+    "topic": "learning"
+  },
+  {
+    "name": "Anand Singh",
+    "group": "coadvised",
+    "image": "source-p3-6.webp",
+    "topic": "learning",
+    "affiliation": {
+      "ja": [
+        "東京科学大学",
+        "情報理工学院 数理・計算科学系",
+        "藤澤克樹研究室"
+      ],
+      "en": [
+        "Institute of Science Tokyo",
+        "School of Computing · Department of Mathematical and Computing Science",
+        "Katsuki Fujisawa Laboratory"
+      ],
+      "zh": [
+        "东京科学大学",
+        "信息理工学院 数理与计算科学系",
+        "藤泽克树研究室"
+      ]
+    }
+  },
+  {
+    "name": "Chris Zhong",
+    "group": "doctoral",
+    "image": "source-p3-7.webp",
+    "topic": "learning"
+  },
+  {
+    "name": "D. Hossein",
+    "group": "doctoral",
+    "image": "source-p3-8.webp",
+    "topic": "learning"
+  },
+  {
+    "name": "史福コウ",
+    "group": "masters",
+    "image": "source-p3-9.webp",
+    "topic": "masters"
+  },
+  {
+    "name": "松田練慈",
+    "group": "undergrad",
+    "image": "source-p3-10.webp",
+    "topic": "forecast"
+  },
+  {
+    "name": "三歩一尚志",
+    "group": "undergrad",
+    "image": "source-p3-11.webp",
+    "topic": "acoustic"
+  },
+  {
+    "name": "秋田倫大",
+    "group": "undergrad",
+    "image": "source-p3-12.webp",
+    "topic": "decision"
+  }
+]

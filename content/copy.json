@@ -1,0 +1,1007 @@
+{
+  "en": {
+    "lang": "en",
+    "nav": [
+      "Home",
+      "Research",
+      "People",
+      "Publications",
+      "Lab life",
+      "Join us",
+      "Contact",
+      "Research projects"
+    ],
+    "university": "Tokyo University of Agriculture and Technology",
+    "department": "Institute of Engineering · Division of Electrical Engineering and Computer Science",
+    "lab": "Shen Laboratory",
+    "menu": "Menu",
+    "skip": "Skip to content",
+    "researchBtn": "Explore our research",
+    "joinBtn": "Join the lab",
+    "learn": "Read more",
+    "paper": "Read the paper",
+    "allPubs": "All research outputs",
+    "contactBtn": "Get in touch",
+    "homeEyebrow": "DATA-DRIVEN SCIENCE · TOKYO, JAPAN",
+    "hero": "<span>Data-driven science.</span><span><em>From insight to action.</em></span>",
+    "heroLead": "We connect probability, statistics, optimization, and machine learning to understand systems from limited data—and build the mathematical foundations for decisions that account for uncertainty.",
+    "heroAffiliation": "Eigen Lab / Shen Laboratory · TUAT<br>Institute of Engineering · Electrical Engineering and Computer Science<br>Graduate School of Advanced Interdisciplinary Science",
+    "art": [
+      "OBSERVATIONS",
+      "PREDICTION",
+      "DECISION",
+      "A CONCEPTUAL VIEW"
+    ],
+    "feature": "Safe learning. Grounded in data.",
+    "featureNote": "OGSRL · NeurIPS 2025 Spotlight",
+    "researchEyebrow": "OUR RESEARCH",
+    "researchTitle": "Foundations of data-driven science",
+    "researchIntro": "How much can we trust a prediction—and what should we do with it? Chance-constrained optimization connects these questions across theory and real-world systems.",
+    "pillarTitles": [
+      "Learn uncertainty",
+      "Make safe decisions"
+    ],
+    "pillarText": [
+      "Learn context-dependent distributions and future states, while assessing prediction error and limited-data uncertainty.",
+      "Connect statistical learning with optimization, control, and reinforcement learning to address safety constraints and long-term performance."
+    ],
+    "pillarTags": [
+      [
+        "Statistical learning",
+        "Uncertainty quantification",
+        "Probabilistic prediction"
+      ],
+      [
+        "Chance constraints",
+        "Safe reinforcement learning",
+        "Predictive control"
+      ]
+    ],
+    "domains": [
+      "Health and human support",
+      "Energy and sustainability",
+      "Mobility and human behavior"
+    ],
+    "projectsEyebrow": "RESEARCH THEMES",
+    "projectsTitle": "Three connected themes",
+    "projectTitles": [
+      "Prediction under uncertainty",
+      "Optimization and safe learning",
+      "Intelligence that adapts"
+    ],
+    "projectText": [
+      "Predict distributions and sets, making both future behavior and the reliability of predictions explicit.",
+      "Study policy structure, tractable approximations, and guarantees for learning under probabilistic safety requirements.",
+      "Account for individual differences, changing environments, and limited observations to understand and support people and systems."
+    ],
+    "projectTags": [
+      "Prediction and statistics",
+      "Optimization, learning, and control",
+      "Personalization and adaptation"
+    ],
+    "newsTitle": "News & activities",
+    "newsIntro": "A selection of moments from the lab.",
+    "news": [
+      [
+        "2026.09",
+        "RESEARCH EXCHANGE",
+        "A student presentation at NUS",
+        "三歩一尚志 presented at the 10th NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence in Singapore, 24–26 September 2026."
+      ],
+      [
+        "2026.02",
+        "LAB ACTIVITY",
+        "A visit to Fujitsu",
+        "Lab members joined a company visit and explored Fujitsu’s history."
+      ],
+      [
+        "2025",
+        "PUBLICATION",
+        "OGSRL selected as a NeurIPS Spotlight",
+        "Our work examines data support and safety constraints in offline reinforcement learning for treatment optimization."
+      ]
+    ],
+    "lifeEyebrow": "LIFE IN THE LAB",
+    "lifeTitle": "A place to ask better questions.",
+    "lifeText": "We work across theory, algorithms, and implementation. Students build foundations, reproduce existing methods, and turn unanswered questions into research—with support from faculty and senior students.",
+    "lifeBtn": "Meet our research community",
+    "ctaTitle": "Curious about what comes next?",
+    "ctaText": "Explore research opportunities and conversations with Eigen Lab.",
+    "footerDescription": "Data-driven science.<br>Uncertainty-aware prediction and safe decision-making.",
+    "footerCopyright": "© 2026 Eigen Lab / Shen Laboratory",
+    "footerLocation": "Koganei, Tokyo · Japan",
+    "researchLead": "We develop mathematical foundations for uncertainty-aware prediction and decision-making. We study optimal policy structure, convergence of approximations, and finite-data guarantees, then connect these results to algorithms and evaluation with real data.",
+    "researchSections": [
+      [
+        "Prediction and statistical learning under uncertainty",
+        "We represent state- and environment-dependent uncertainty through conditional distributions, and compute probabilistic reachable sets and prediction intervals. Robust learning addresses noise and anomalous observations.",
+        "Questions we study",
+        "How reliably can limited observations describe the range of future states?",
+        "How does distribution-estimation error affect prediction reliability?",
+        "How do approximate solutions converge as more data become available?"
+      ],
+      [
+        "Chance-constrained optimization and safe decisions",
+        "We design policies that address safety and performance together. Our work includes the structure of flipping-based policies, tractable approximation methods, and offline safe reinforcement learning that respects the support of existing data.",
+        "Questions we study",
+        "What structure can an optimal decision rule have under probabilistic safety constraints?",
+        "How can policies improve while accounting for model error and distribution shift?",
+        "Under which assumptions can safety and performance be guaranteed probabilistically?"
+      ],
+      [
+        "Adaptive intelligence for people and systems",
+        "System identification and network re-stabilization with high-dimensional, limited data support our work on personalized prediction and intervention. We connect human understanding, digital twins, and privacy-preserving learning to human–AI collaboration.",
+        "Questions we study",
+        "How can sparse observations reveal early changes and useful intervention targets?",
+        "What should be shared across individuals and environments, and what should be learned separately?",
+        "How should observation timing, intervention timing, and collaboration be designed?"
+      ]
+    ],
+    "researchMethodTitle": "From real problems to mathematics—and back",
+    "researchMethodText": "Understand the phenomenon and data, formulate the problem, and implement and evaluate an algorithm. Practical limitations become new theoretical questions. We make the assumptions and scope of our guarantees explicit.",
+    "peopleLead": "A research community connecting mathematical ideas, computational methods, and practical questions.",
+    "facultyRole": "Associate Professor · Principal Investigator",
+    "facultyTitle": "Xun Shen / 瀋迅",
+    "facultyHeading": "From reliable prediction to safe decisions.",
+    "facultyBio": "Based at TUAT, Xun Shen studies chance-constrained optimization, statistical machine learning, and safe reinforcement learning. His background in engineering and statistical sciences connects mathematical theory with problems in health, mobility, and energy.",
+    "facultyDegrees": "PhD in Engineering · PhD in Statistical Sciences",
+    "personal": "Personal website",
+    "rosterNote": "Member information as of October 2026. The affiliations of co-supervised students at Institute of Science Tokyo were confirmed in November 2026.",
+    "groups": {
+      "doctoral": "Doctoral students",
+      "masters": "Master’s student",
+      "undergrad": "Undergraduate students",
+      "coadvised": "Co-supervised doctoral students"
+    },
+    "groupLabels": {
+      "doctoral": "D1 · October 2026",
+      "masters": "M1 · October 2026",
+      "undergrad": "B4 · October 2026",
+      "coadvised": "Institute of Science Tokyo"
+    },
+    "topics": {
+      "decision": "Data-driven decision-making",
+      "forecast": "Time-series prediction",
+      "learning": "Learning & decision-making",
+      "acoustic": "Acoustic distance estimation",
+      "masters": "Master’s program"
+    },
+    "publicationsLead": "Xun Shen’s research publications, including journal articles, conference papers, invited talks, theses, and a patent application. Titles are shown in their original language.",
+    "search": "Search titles, authors, or venues",
+    "allTypes": "All publication types",
+    "journal": "Journal articles",
+    "conference": "Conference papers",
+    "allYears": "All years",
+    "results": "publications",
+    "none": "No publications match these filters.",
+    "publicationNote": "The list also includes dissertations, talks, and patent information. Accepted and early-access records are identified separately. Bibliographic details reflect the sources checked on 15 November 2026.",
+    "record": "Full publication record",
+    "lifeLead": "Research grows through discussion, shared experiences, and contact with different fields.",
+    "story1Title": "Sharing research in Singapore",
+    "story1Text": "三歩一尚志 presented at the 10th NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence at NUS, held on 24–26 September 2026. International exchanges give students opportunities to explain their ideas and encounter new questions.",
+    "story1Caption": "At the workshop venue, National University of Singapore.",
+    "story2Title": "Learning beyond the laboratory",
+    "story2Text": "In February 2026, lab members participated in a visit to Fujitsu. The visit included its history museum and time to talk together outside the usual research setting.",
+    "story2Caption": "Lab members during the February 2026 visit.",
+    "cultureTitle": "How research takes shape.",
+    "cultureIntro": "Students do not need to arrive with a finished research idea. We develop the question together.",
+    "steps": [
+      [
+        "Build foundations",
+        "Learn the mathematics, machine learning, and programming needed for your question."
+      ],
+      [
+        "Reproduce a method",
+        "Read a paper, understand its code, and run the experiments."
+      ],
+      [
+        "Find the gap",
+        "Identify when a method succeeds, where it fails, and why."
+      ],
+      [
+        "Improve & evaluate",
+        "Implement an idea, compare fairly, and communicate the evidence."
+      ]
+    ],
+    "joinLead": "Bring your curiosity about data, learning, and real-world systems. We welcome conversations with prospective students and research collaborators.",
+    "joinCards": [
+      [
+        "For prospective students",
+        "Explore a question at the intersection of mathematical theory and implementation.",
+        [
+          "Prediction and learning from complex data",
+          "Safe reinforcement learning and optimization",
+          "Applications in health, energy, and mobility"
+        ]
+      ],
+      [
+        "For collaborators",
+        "Start from a concrete scientific or engineering challenge and discuss what reliable learning could contribute.",
+        [
+          "Problem formulation and uncertainty modeling",
+          "Algorithm design and reproducible evaluation",
+          "Bridging domain knowledge and data-driven methods"
+        ]
+      ]
+    ],
+    "emailTitle": "Start a conversation",
+    "emailIntro": "When contacting Xun Shen, please introduce your background, your research interests, and your intended timing. Prospective students may include a CV and a brief description of a project or paper that interests them.",
+    "admissionNote": "Formal admission requirements, deadlines, and funding arrangements are determined through the university’s official procedures. Please consult TUAT’s current admissions information. Our graduate education is connected with the Graduate School of Advanced Interdisciplinary Science.",
+    "admissions": "TUAT admissions",
+    "faqTitle": "A few practical questions",
+    "faq": [
+      [
+        "Do I need a fully developed research proposal?",
+        "A clear interest and a willingness to learn are a good starting point. We can discuss how to turn an interest into a research question."
+      ],
+      [
+        "What preparation is useful?",
+        "Linear algebra, probability, optimization, and programming are useful foundations. The appropriate preparation depends on the research topic, and students continue building skills after joining."
+      ],
+      [
+        "What does research supervision look like?",
+        "Faculty and senior students support discussions about papers, implementations, experimental design, and interpretation of results. Research questions and directions are developed together."
+      ],
+      [
+        "Are projects purely theoretical?",
+        "We connect theory with algorithms and evaluation. Practical questions help us identify which assumptions matter and where new methods are needed."
+      ]
+    ],
+    "contactLead": "For research inquiries, prospective student discussions, and collaboration.",
+    "contactHeading": "Contact Xun Shen",
+    "contactIntro": "Please include a short introduction and the reason for your inquiry.",
+    "addressHeading": "Koganei Campus",
+    "addressText": "Tokyo University of Agriculture and Technology<br>2-24-16 Nakacho, Koganei, Tokyo 184-8588, Japan",
+    "visitTitle": "Planning a visit",
+    "visitText": "Please arrange an appointment by email before visiting.",
+    "office": "Faculty office",
+    "officeValue": "Building 5 · Room 403",
+    "studentRoom": "Student room",
+    "studentRoomValue": "Building 5 · Room 401",
+    "linksTitle": "Research profiles",
+    "universityLink": "University website",
+    "close": "Close",
+    "graduate": "Graduate School of Advanced Interdisciplinary Science",
+    "undergraduate": "Faculty of Engineering · Department of Electrical Engineering and Computer Science",
+    "affiliationTitle": "Research and education at TUAT",
+    "affiliationLabels": [
+      "Faculty affiliation",
+      "Undergraduate education",
+      "Graduate education"
+    ],
+    "heroImageAlt": "A conceptual illustration connecting human-centered AI, mobility, and renewable energy through data",
+    "illustrationCaption": "Envisioning the impact of our research",
+    "flowTitle": "From observations to informed action",
+    "flowNodes": [
+      [
+        "Observed data",
+        "States, context, and behavior"
+      ],
+      [
+        "Prediction and uncertainty",
+        "Conditional distributions and future sets"
+      ],
+      [
+        "Decisions and interventions",
+        "Safety constraints and long-term value"
+      ]
+    ],
+    "flowFeedback": "Observe the outcomes and update models and policies",
+    "flowFoundation": "Shared foundations: probability and statistics × optimization × learning and control",
+    "evidence": "Related research",
+    "applicationTitle": "Connections to real-world problems",
+    "applicationItems": [
+      [
+        "Health and human support",
+        "Early signs of change in biological networks, treatment-policy research, and care support informed by human understanding."
+      ],
+      [
+        "Mobility",
+        "Driver behavior, pedestrian and driving risk, and personalized driver education."
+      ],
+      [
+        "Energy",
+        "Wind-power prediction and risk-aware operation of renewable-energy and power systems."
+      ]
+    ],
+    "studentLegend": "† marks student authors matched to the roster; ‡ marks students at Institute of Science Tokyo co-supervised by Xun Shen. Badges distinguish student first authorship and coauthorship. Unmarked papers may include former students or students at other institutions.",
+    "studentFilter": "Supervised / co-supervised students",
+    "studentFirst": "Student first author",
+    "studentCoauthor": "Student coauthor",
+    "paperCount": "Papers",
+    "studentCount": "With identified student authors",
+    "otherCount": "Other outputs",
+    "talk": "Talk",
+    "thesis": "Dissertation",
+    "patent": "Patent",
+    "published": "Published",
+    "accepted": "Accepted",
+    "early_access": "Early access",
+    "other": "Other",
+    "noYear": "Year to be confirmed",
+    "resetFilters": "Reset filters",
+    "fundedTitle": "Research projects",
+    "fundedLead": "Connecting data-driven science to support for people and society. Explore our publicly funded research projects.",
+    "fundedBtn": "Explore projects",
+    "fundedEyebrow": "FUNDED RESEARCH",
+    "projectGoals": "What we aim to achieve",
+    "projectSource": "Official project information",
+    "projectPI": "Principal investigator: Xun Shen",
+    "projectPast": "Earlier research support",
+    "projectIllustrationNote": "Illustrations depict intended research scenarios, rather than completed deployments or validated devices.",
+    "coadvisedTitle": "Co-supervised doctoral students",
+    "coadvisedGroup": "Institute of Science Tokyo",
+    "coadvisedBy": "Co-supervised by Xun Shen",
+    "coadvisedPaper": "Co-supervised student"
+  },
+  "ja": {
+    "lang": "ja",
+    "nav": [
+      "ホーム",
+      "研究",
+      "メンバー",
+      "研究業績",
+      "研究室の日々",
+      "参加希望の方へ",
+      "連絡先",
+      "研究プロジェクト"
+    ],
+    "university": "東京農工大学",
+    "department": "工学研究院 知能情報システム工学部門",
+    "lab": "瀋研究室",
+    "menu": "メニュー",
+    "skip": "本文へ移動",
+    "researchBtn": "研究を知る",
+    "joinBtn": "研究室に参加する",
+    "learn": "詳しく見る",
+    "paper": "論文を読む",
+    "allPubs": "全研究業績",
+    "contactBtn": "お問い合わせ",
+    "homeEyebrow": "DATA-DRIVEN SCIENCE · TOKYO, JAPAN",
+    "hero": "<span>データ駆動型科学。</span><span><em>予測から意思決定へ。</em></span>",
+    "heroLead": "確率・統計・最適化と機械学習をつなぎ、限られたデータから現象を理解する。不確かさを見据え、人と社会を支える意思決定の数理基盤をつくります。",
+    "heroAffiliation": "東京農工大学 Eigen Lab / 瀋研究室<br>工学研究院 知能情報システム工学部門<br>大学院先進学際科学府",
+    "art": [
+      "観測",
+      "予測",
+      "意思決定",
+      "研究の概念図"
+    ],
+    "feature": "データに根ざした、安全な学習。",
+    "featureNote": "OGSRL · NeurIPS 2025 Spotlight",
+    "researchEyebrow": "OUR RESEARCH",
+    "researchTitle": "データ駆動型科学の数理基盤",
+    "researchIntro": "「どこまで信頼して予測できるか」「その予測をもとに何を決めるか」。確率制約付き最適化を核に、理論と実問題を往還します。",
+    "pillarTitles": [
+      "不確かさを学ぶ",
+      "安全に意思決定する"
+    ],
+    "pillarText": [
+      "状況に依存する確率分布や将来状態を学習し、予測誤差とデータ不足の影響を評価します。",
+      "統計的学習と最適化・制御・強化学習を結び、安全制約と長期的な性能を扱います。"
+    ],
+    "pillarTags": [
+      [
+        "統計的学習",
+        "不確かさの定量化",
+        "確率的予測"
+      ],
+      [
+        "確率最適化",
+        "安全強化学習",
+        "予測制御"
+      ]
+    ],
+    "domains": [
+      "医療・人間支援",
+      "エネルギー・持続可能性",
+      "モビリティ・人の行動"
+    ],
+    "projectsEyebrow": "RESEARCH THEMES",
+    "projectsTitle": "三つの研究テーマ",
+    "projectTitles": [
+      "不確かさを扱う予測・学習",
+      "確率最適化と安全強化学習",
+      "人と環境に適応する知能"
+    ],
+    "projectText": [
+      "状況に応じた分布・集合の予測により、将来の変化と予測の信頼性を捉えます。",
+      "安全要件を確率的に定式化し、データから学ぶ方策の構造・近似解法・保証を探究します。",
+      "個人差、環境変化、少量データを考慮し、システムの理解と個別の支援につなげます。"
+    ],
+    "projectTags": [
+      "予測・統計的学習",
+      "最適化・学習・制御",
+      "個別化・適応・協働"
+    ],
+    "newsTitle": "ニュース・活動",
+    "newsIntro": "研究室での出来事をご紹介します。",
+    "news": [
+      [
+        "2026.09",
+        "研究交流",
+        "NUSで学生が研究発表",
+        "三歩一尚志さんが、2026年9月24〜26日にシンガポールで開催された第10回 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligenceで発表しました。"
+      ],
+      [
+        "2026.02",
+        "研究室の活動",
+        "富士通の見学に参加",
+        "研究室のメンバーが富士通を訪問し、歴史館を見学しました。"
+      ],
+      [
+        "2025",
+        "論文",
+        "OGSRLがNeurIPS Spotlightに採択",
+        "医療の治療方策最適化に向け、データによる裏付けと安全制約を考慮したオフライン強化学習を研究しました。"
+      ]
+    ],
+    "lifeEyebrow": "LIFE IN THE LAB",
+    "lifeTitle": "問いを深める、研究の場。",
+    "lifeText": "理論・アルゴリズム・実装を一貫して考えます。基礎を学び、既存手法を再現し、まだ答えのない問いを見つける。教員や先輩と相談しながら、自分の研究へと育てていきます。",
+    "lifeBtn": "研究室の日々を知る",
+    "ctaTitle": "次の問いを、一緒に。",
+    "ctaText": "研究室への参加や共同研究に関心のある方へ。",
+    "footerDescription": "データ駆動型科学。<br>不確かさを考慮した予測と、安全な意思決定。",
+    "footerCopyright": "© 2026 Eigen Lab / 瀋研究室",
+    "footerLocation": "東京都小金井市 · 日本",
+    "researchLead": "不確かさを考慮したデータ駆動型予測・意思決定の数理基盤を研究しています。最適方策の構造、近似解法の収束性、有限データ下での保証を明らかにし、実データを用いたアルゴリズムの設計・検証へつなげます。",
+    "researchSections": [
+      [
+        "不確かさを扱う予測・統計的学習",
+        "環境や状態によって変化する不確かさを条件付き分布で表し、将来状態の確率的到達集合や予測区間を求めます。ノイズや異常値を含むデータからのロバスト学習も扱います。",
+        "取り組む問い",
+        "限られた観測から、将来の範囲をどこまで信頼して予測できるか。",
+        "分布の推定誤差が、予測の信頼性にどう影響するか。",
+        "データ数の増加に伴い、近似解はどのように収束するか。"
+      ],
+      [
+        "確率最適化と安全な逐次意思決定",
+        "確率制約付き最適化を核として、安全性と性能を同時に扱う方策を設計します。フリッピングベースドポリシーの構造解析、計算可能な近似解法、既存データの裏付けを重視するオフライン安全強化学習に取り組みます。",
+        "取り組む問い",
+        "安全要件を満たす最適な意思決定則には、どのような構造があるか。",
+        "モデル推定誤差や分布外への逸脱を考慮して、どう方策を改善するか。",
+        "どの仮定の下で、安全性・性能を確率的に保証できるか。"
+      ],
+      [
+        "人と環境に適応する知能・システム",
+        "高次元・少量データからのシステム同定やネットワークの再安定化を基礎に、個人差と状況変化に対応する予測・介入を研究します。人間理解、デジタルツイン、プライバシーを保護する学習をつなぎ、人とAIの協働へ展開します。",
+        "取り組む問い",
+        "少ない観測から、状態変化の兆候や介入すべき箇所をどう見つけるか。",
+        "個人や環境が異なるとき、何を共有し、何を個別に学ぶべきか。",
+        "観測・判断のタイミングや複数主体の協働を、どう設計するか。"
+      ]
+    ],
+    "researchMethodTitle": "実問題と数理の往還",
+    "researchMethodText": "現象とデータを理解し、数理的に定式化し、アルゴリズムを実装・検証する。そこで見つかった限界を、新たな理論的課題へ還元します。保証が成立する仮定と適用範囲を明確にすることを重視します。",
+    "peopleLead": "数学的な発想、計算手法、現実の問いをつなぐ研究コミュニティ。",
+    "facultyRole": "准教授 · 研究室主宰",
+    "facultyTitle": "瀋迅 / Xun Shen",
+    "facultyHeading": "予測の信頼性から、意思決定の安全性へ。",
+    "facultyBio": "東京農工大学を拠点に、確率制約付き最適化、統計的機械学習、安全強化学習を研究。博士（工学）と博士（統計科学）の背景を生かし、数理理論から医療・モビリティ・エネルギーの実問題へと研究を展開しています。",
+    "facultyDegrees": "博士（工学） · 博士（統計科学）",
+    "personal": "個人ウェブサイト",
+    "rosterNote": "2026年10月のメンバー情報。東京科学大学に所属する共同指導学生の所属情報は、2026年11月に確認しています。",
+    "groups": {
+      "doctoral": "博士後期課程",
+      "masters": "修士課程",
+      "undergrad": "学部生",
+      "coadvised": "共同指導の博士課程学生"
+    },
+    "groupLabels": {
+      "doctoral": "D1 · 2026年10月時点",
+      "masters": "M1 · 2026年10月時点",
+      "undergrad": "B4 · 2026年10月時点",
+      "coadvised": "東京科学大学"
+    },
+    "topics": {
+      "decision": "データ駆動型意思決定",
+      "forecast": "時系列予測",
+      "learning": "学習と意思決定",
+      "acoustic": "音響情報からの距離推定",
+      "masters": "修士課程"
+    },
+    "publicationsLead": "瀋迅の研究業績一覧。学術雑誌論文・国際会議論文に加え、招待講演・学位論文・特許出願を掲載しています。論文タイトルは原題で紹介しています。",
+    "search": "タイトル・著者・掲載先で検索",
+    "allTypes": "すべての種別",
+    "journal": "学術雑誌",
+    "conference": "国際会議",
+    "allYears": "すべての年",
+    "results": "件",
+    "none": "条件に一致する論文はありません。",
+    "publicationNote": "論文のほか、学位論文・講演・特許情報も掲載しています。採録済・早期公開の状態を区別し、確認できた書誌情報を反映しています。更新基準日：2026年11月15日。",
+    "record": "研究業績の一覧",
+    "lifeLead": "対話や経験の共有、異なる分野との接点から、研究は育っていきます。",
+    "story1Title": "シンガポールで研究を伝える",
+    "story1Text": "三歩一尚志さんが、2026年9月24〜26日にNUSで開催された第10回 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligenceで発表しました。国際的な交流は、自分の考えを説明し、新しい問いに出会う機会になります。",
+    "story1Caption": "シンガポール国立大学のワークショップ会場にて。",
+    "story2Title": "研究室の外で学ぶ",
+    "story2Text": "2026年2月、メンバーが富士通の見学に参加しました。歴史館の見学や懇親の時間を通して、普段の研究とは異なる場で交流しました。",
+    "story2Caption": "2026年2月の見学時に撮影。",
+    "cultureTitle": "研究を、自分の問いに。",
+    "cultureIntro": "初めから完成した研究テーマがなくても大丈夫です。問いを一緒に具体化していきます。",
+    "steps": [
+      [
+        "基礎を学ぶ",
+        "研究に必要な数学・機械学習・プログラミングの基礎を整理します。"
+      ],
+      [
+        "既存手法を再現する",
+        "論文とコードを理解し、まず実験を動かします。"
+      ],
+      [
+        "課題を見つける",
+        "うまくいく条件、いかない条件と、その理由を考えます。"
+      ],
+      [
+        "改善して確かめる",
+        "自分の案を実装し、公平に比較し、根拠を伝えます。"
+      ]
+    ],
+    "joinLead": "データ、学習、現実のシステムへの好奇心を、研究につなげませんか。進学や共同研究についてのご相談を歓迎します。",
+    "joinCards": [
+      [
+        "進学・配属を考えている方へ",
+        "数学的な理論と実装の接点で、自分の研究の問いを探します。",
+        [
+          "複雑なデータからの予測と学習",
+          "安全強化学習と最適化",
+          "健康・エネルギー・モビリティへの応用"
+        ]
+      ],
+      [
+        "共同研究をお考えの方へ",
+        "具体的な科学・工学の課題を出発点に、信頼できる学習が何に貢献できるかを考えます。",
+        [
+          "問題の定式化と不確かさのモデル化",
+          "アルゴリズムの設計と再現可能な評価",
+          "専門知識とデータ駆動型手法の接続"
+        ]
+      ]
+    ],
+    "emailTitle": "まずは、ご相談ください。",
+    "emailIntro": "瀋迅へのご連絡では、ご自身の背景、関心のある研究、希望時期を簡潔にお知らせください。進学希望の方は、履歴書や、興味を持った研究・論文の説明も添えていただけると、相談が進めやすくなります。",
+    "admissionNote": "入学要件、出願期限、経済的支援などは、大学の正式な手続きに従います。最新の情報は東京農工大学の入試案内でご確認ください。 本研究室の大学院教育は先進学際科学府に関わっています。",
+    "admissions": "東京農工大学の入試案内",
+    "faqTitle": "よくあるご相談",
+    "faq": [
+      [
+        "研究計画が固まっていなくても相談できますか。",
+        "関心のあることと、学びたい気持ちを出発点にできます。興味を具体的な研究の問いにする方法を、一緒に考えます。"
+      ],
+      [
+        "どのような準備が役立ちますか。",
+        "線形代数、確率、最適化、プログラミングが基礎になります。必要な準備はテーマによって異なり、配属後も学びながら身につけていきます。"
+      ],
+      [
+        "研究の指導はどのように進みますか。",
+        "論文の読み方、実装、実験の設計、結果の解釈について、教員や先輩と相談できます。研究の問いや方針も一緒に考えます。"
+      ],
+      [
+        "理論だけを研究するのでしょうか。",
+        "理論をアルゴリズムと評価につなげます。実際の課題から、重要な仮定や新しい手法が必要な場面を見つけます。"
+      ]
+    ],
+    "contactLead": "研究に関するお問い合わせ、進学のご相談、共同研究について。",
+    "contactHeading": "瀋迅への連絡",
+    "contactIntro": "簡単な自己紹介とお問い合わせの目的をお知らせください。",
+    "addressHeading": "小金井キャンパス",
+    "addressText": "東京農工大学<br>〒184-8588 東京都小金井市中町2-24-16",
+    "visitTitle": "ご訪問について",
+    "visitText": "訪問をご希望の際は、事前にメールで日時をご相談ください。",
+    "office": "教員居室",
+    "officeValue": "5号館 403室",
+    "studentRoom": "学生居室",
+    "studentRoomValue": "5号館 401室",
+    "linksTitle": "研究者情報",
+    "universityLink": "東京農工大学ウェブサイト",
+    "close": "閉じる",
+    "graduate": "大学院先進学際科学府",
+    "undergraduate": "工学部 知能情報システム工学科",
+    "affiliationTitle": "研究・教育の拠点",
+    "affiliationLabels": [
+      "教員所属",
+      "学部教育",
+      "大学院教育"
+    ],
+    "heroImageAlt": "人を支えるAI、モビリティ、再生可能エネルギーを、データの流れでつないだ研究の概念イラスト",
+    "illustrationCaption": "研究が目指す社会のイメージ",
+    "flowTitle": "観測から、根拠のある行動へ",
+    "flowNodes": [
+      [
+        "観測データ",
+        "状態・環境・人の行動"
+      ],
+      [
+        "予測と不確かさ",
+        "条件付き分布・将来の範囲"
+      ],
+      [
+        "意思決定と介入",
+        "安全制約・長期的な性能"
+      ]
+    ],
+    "flowFeedback": "行動の結果を観測し、モデルと方策を更新する",
+    "flowFoundation": "共通の基盤：確率・統計 × 最適化 × 機械学習・制御",
+    "evidence": "関連する研究成果",
+    "applicationTitle": "現実の課題との接点",
+    "applicationItems": [
+      [
+        "医療・人間支援",
+        "生体ネットワークの異常予兆、治療方策の研究、人間理解に基づく介護支援。"
+      ],
+      [
+        "モビリティ",
+        "運転特性の理解、歩行者・運転者のリスク予測、個別化された運転教育。"
+      ],
+      [
+        "エネルギー",
+        "風力発電の予測、再生可能エネルギーや電力システムのリスクを考慮した運用。"
+      ]
+    ],
+    "studentLegend": "† は名簿と照合した学生著者、‡ は瀋迅が共同指導する東京科学大学所属の学生著者です。「学生筆頭」「学生共著」を表示しています。無印の論文にも、過去の指導学生や他機関の学生が含まれる場合があります。",
+    "studentFilter": "指導・共同指導学生の論文",
+    "studentFirst": "学生筆頭",
+    "studentCoauthor": "学生共著",
+    "paperCount": "論文",
+    "studentCount": "学生著者を確認",
+    "otherCount": "その他の業績",
+    "talk": "講演",
+    "thesis": "学位論文",
+    "patent": "特許",
+    "published": "掲載済",
+    "accepted": "採録済",
+    "early_access": "早期公開",
+    "other": "その他",
+    "noYear": "年未確定",
+    "resetFilters": "条件をリセット",
+    "fundedTitle": "研究プロジェクト",
+    "fundedLead": "データ駆動型科学を、人の暮らしを支える研究へ。公的支援のもとで進めるプロジェクトを紹介します。",
+    "fundedBtn": "プロジェクトを見る",
+    "fundedEyebrow": "FUNDED RESEARCH",
+    "projectGoals": "目指すこと",
+    "projectSource": "公式情報",
+    "projectPI": "研究代表者：瀋迅",
+    "projectPast": "これまでの研究支援",
+    "projectIllustrationNote": "イラストは研究が目指す場面を示したもので、実装・実証済みの機器を示すものではありません。",
+    "coadvisedTitle": "共同指導の博士課程学生",
+    "coadvisedGroup": "東京科学大学",
+    "coadvisedBy": "共同指導：瀋迅",
+    "coadvisedPaper": "共同指導学生を含む"
+  },
+  "zh": {
+    "lang": "zh-CN",
+    "nav": [
+      "首页",
+      "研究方向",
+      "成员",
+      "研究成果",
+      "实验室生活",
+      "加入我们",
+      "联系我们",
+      "研究项目"
+    ],
+    "university": "东京农工大学",
+    "department": "工学研究院 · 智能信息系统工学部门",
+    "lab": "沈迅研究室",
+    "menu": "菜单",
+    "skip": "跳转至正文",
+    "researchBtn": "探索我们的研究",
+    "joinBtn": "加入实验室",
+    "learn": "了解更多",
+    "paper": "阅读论文",
+    "allPubs": "全部研究成果",
+    "contactBtn": "联系我们",
+    "homeEyebrow": "DATA-DRIVEN SCIENCE · TOKYO, JAPAN",
+    "hero": "<span>数据驱动的科学。</span><span><em>从预测走向决策。</em></span>",
+    "heroLead": "连接概率、统计、优化与机器学习，从有限数据中理解复杂系统，构建考虑不确定性、服务人与社会的决策数学基础。",
+    "heroAffiliation": "东京农工大学 Eigen Lab / 沈迅研究室<br>工学研究院 · 智能信息系统工学部门<br>研究生院先進学際科学府",
+    "art": [
+      "观测",
+      "预测",
+      "决策",
+      "研究概念示意"
+    ],
+    "feature": "以数据为依据，安全地学习。",
+    "featureNote": "OGSRL · NeurIPS 2025 Spotlight",
+    "researchEyebrow": "OUR RESEARCH",
+    "researchTitle": "数据驱动科学的数学基础",
+    "researchIntro": "预测值得信任到什么程度？如何据此作出决策？我们以概率约束优化为核心，在数学理论与实际问题之间开展研究。",
+    "pillarTitles": [
+      "学习不确定性",
+      "作出安全的决策"
+    ],
+    "pillarText": [
+      "学习随情境变化的概率分布与未来状态，评估预测误差和数据不足带来的影响。",
+      "将统计学习与优化、控制和强化学习相连接，同时考虑安全约束与长期性能。"
+    ],
+    "pillarTags": [
+      [
+        "统计学习",
+        "不确定性量化",
+        "概率预测"
+      ],
+      [
+        "概率约束优化",
+        "安全强化学习",
+        "预测控制"
+      ]
+    ],
+    "domains": [
+      "医疗与人类支持",
+      "能源与可持续发展",
+      "交通与人类行为"
+    ],
+    "projectsEyebrow": "RESEARCH THEMES",
+    "projectsTitle": "三个相互关联的研究方向",
+    "projectTitles": [
+      "不确定性下的预测与学习",
+      "概率优化与安全强化学习",
+      "适应人与环境的智能"
+    ],
+    "projectText": [
+      "通过预测概率分布与集合，描述未来变化及预测的可靠性。",
+      "研究概率安全要求下的策略结构、可计算近似方法与理论保证。",
+      "考虑个体差异、环境变化和有限观测，理解系统并提供个性化支持。"
+    ],
+    "projectTags": [
+      "预测与统计学习",
+      "优化、学习与控制",
+      "个性化、适应与协作"
+    ],
+    "newsTitle": "新闻与活动",
+    "newsIntro": "记录实验室的研究与交流。",
+    "news": [
+      [
+        "2026.09",
+        "学术交流",
+        "学生在新加坡国立大学发表研究",
+        "三歩一尚志于2026年9月24日至26日在新加坡举行的第10届 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence上发表研究。"
+      ],
+      [
+        "2026.02",
+        "实验室活动",
+        "参观富士通",
+        "实验室成员参加企业参访，了解富士通的发展历史。"
+      ],
+      [
+        "2025",
+        "论文",
+        "OGSRL入选NeurIPS Spotlight",
+        "我们的工作研究治疗策略优化中的离线强化学习，同时考虑数据支持范围与安全约束。"
+      ]
+    ],
+    "lifeEyebrow": "LIFE IN THE LAB",
+    "lifeTitle": "让问题不断深入的地方。",
+    "lifeText": "我们贯通理论、算法与实现。学生从学习基础和复现已有方法出发，在教师与高年级同学的支持下，将尚未解决的问题发展为自己的研究。",
+    "lifeBtn": "了解实验室生活",
+    "ctaTitle": "一起探索下一个问题。",
+    "ctaText": "欢迎就加入实验室和研究合作展开交流。",
+    "footerDescription": "数据驱动的科学。<br>考虑不确定性的预测与安全决策。",
+    "footerCopyright": "© 2026 Eigen Lab / 沈迅研究室",
+    "footerLocation": "日本 · 东京 · 小金井",
+    "researchLead": "我们研究考虑不确定性的数据驱动预测与决策的数学基础，分析最优策略结构、近似方法的收敛性及有限数据下的保证，并将理论成果用于基于真实数据的算法设计与验证。",
+    "researchSections": [
+      [
+        "不确定性下的预测与统计学习",
+        "利用条件分布表示随状态和环境变化的不确定性，计算未来状态的概率可达集与预测区间；同时研究含噪声、异常值数据下的鲁棒学习。",
+        "研究问题",
+        "有限观测能在多大程度上可靠地刻画未来状态范围？",
+        "分布估计误差如何影响预测的可靠性？",
+        "随着数据增多，近似解如何收敛？"
+      ],
+      [
+        "概率约束优化与安全序贯决策",
+        "以概率约束优化为基础，设计兼顾安全与性能的策略。研究内容包括翻转式策略的结构分析、可计算的近似方法，以及重视已有数据支持范围的离线安全强化学习。",
+        "研究问题",
+        "概率安全约束下的最优决策规则具有怎样的结构？",
+        "如何在考虑模型误差和分布外偏离的同时改进策略？",
+        "在什么假设下，可以对安全性与性能提供概率保证？"
+      ],
+      [
+        "适应人与环境的智能系统",
+        "以高维小样本数据下的系统辨识和网络再稳定化为基础，研究适应个体差异与情境变化的预测和干预。进一步连接人类理解、数字孪生与隐私保护学习，探索人与AI的协作。",
+        "研究问题",
+        "如何从少量观测发现状态变化的早期信号和干预目标？",
+        "面对不同个体与环境，哪些知识应当共享，哪些应当单独学习？",
+        "如何设计观测、判断和干预时机，以及多主体协作？"
+      ]
+    ],
+    "researchMethodTitle": "在实际问题与数学之间往返",
+    "researchMethodText": "理解现象与数据，建立数学表述，实现算法并开展验证，再将实践中发现的局限转化为新的理论问题。我们重视明确保证成立所需的假设及其适用范围。",
+    "peopleLead": "连接数学思想、计算方法与实际问题的研究团队。",
+    "facultyRole": "副教授 · 实验室负责人",
+    "facultyTitle": "沈迅 / Xun Shen",
+    "facultyHeading": "从可靠的预测，到安全的决策。",
+    "facultyBio": "沈迅以东京农工大学为研究基地，研究概率约束优化、统计机器学习与安全强化学习。结合工学和统计科学的博士研究背景，将数学理论与医疗、交通和能源领域的实际问题连接起来。",
+    "facultyDegrees": "工学博士 · 统计科学博士",
+    "personal": "个人网站",
+    "rosterNote": "成员信息以2026年10月为准。东京科学大学共同指导学生的所属信息已于2026年11月确认。",
+    "groups": {
+      "doctoral": "博士生",
+      "masters": "硕士生",
+      "undergrad": "本科生",
+      "coadvised": "共同指导的博士生"
+    },
+    "groupLabels": {
+      "doctoral": "D1 · 截至2026年10月",
+      "masters": "M1 · 截至2026年10月",
+      "undergrad": "B4 · 截至2026年10月",
+      "coadvised": "东京科学大学"
+    },
+    "topics": {
+      "decision": "数据驱动决策",
+      "forecast": "时间序列预测",
+      "learning": "学习与决策",
+      "acoustic": "声学距离估计",
+      "masters": "硕士课程"
+    },
+    "publicationsLead": "沈迅的研究成果目录，包括期刊论文、会议论文、邀请报告、学位论文与专利申请。论文题目保留原文。",
+    "search": "搜索标题、作者或发表刊物",
+    "allTypes": "所有类型",
+    "journal": "期刊论文",
+    "conference": "会议论文",
+    "allYears": "所有年份",
+    "results": "篇论文",
+    "none": "没有符合筛选条件的论文。",
+    "publicationNote": "除论文外，也收录学位论文、学术报告与专利信息，并区分已录用和在线优先发表等状态。书目信息核对日期：2026年11月15日。",
+    "record": "完整研究成果",
+    "lifeLead": "研究在讨论、共同经历以及不同领域的交流中不断成长。",
+    "story1Title": "在新加坡分享研究",
+    "story1Text": "三歩一尚志于2026年9月24日至26日在新加坡国立大学举办的第10届 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence上发表研究。国际交流让学生有机会阐述自己的想法，并接触新的问题。",
+    "story1Caption": "新加坡国立大学研讨会现场。",
+    "story2Title": "走出实验室，拓展视野",
+    "story2Text": "2026年2月，实验室成员参加了富士通参访。通过参观历史馆和交流活动，大家在日常研究之外分享体验。",
+    "story2Caption": "摄于2026年2月的参访活动。",
+    "cultureTitle": "让研究成为自己的问题。",
+    "cultureIntro": "不必带着一个已经完成的研究构想加入。我们共同将兴趣转化为明确的问题。",
+    "steps": [
+      [
+        "建立基础",
+        "学习研究所需的数学、机器学习和编程知识。"
+      ],
+      [
+        "复现方法",
+        "阅读论文，理解代码，并运行实验。"
+      ],
+      [
+        "发现问题",
+        "分析方法何时有效、何时失效，以及背后的原因。"
+      ],
+      [
+        "改进与验证",
+        "实现自己的想法，公平比较，并清楚地呈现证据。"
+      ]
+    ],
+    "joinLead": "将你对数据、学习和现实系统的好奇心转化为研究。欢迎有意升学的同学和研究合作者与我们交流。",
+    "joinCards": [
+      [
+        "面向未来的学生",
+        "在数学理论与实际实现的交汇处，探索属于自己的研究问题。",
+        [
+          "复杂数据的预测与学习",
+          "安全强化学习与优化",
+          "健康、能源和交通领域的应用"
+        ]
+      ],
+      [
+        "面向研究合作者",
+        "从具体的科学或工程挑战出发，讨论可靠学习方法可以带来什么。",
+        [
+          "问题建模与不确定性刻画",
+          "算法设计与可复现的评估",
+          "连接领域知识与数据驱动方法"
+        ]
+      ]
+    ],
+    "emailTitle": "从一次交流开始。",
+    "emailIntro": "联系沈迅时，请简要介绍你的背景、研究兴趣和计划时间。有意升学的同学可附上简历，以及感兴趣的项目或论文的简短说明。",
+    "admissionNote": "入学条件、申请截止时间和资助安排以大学官方程序为准。请查阅东京农工大学最新的招生信息。 本研究室参与先進学際科学府的研究生教学。",
+    "admissions": "东京农工大学招生信息",
+    "faqTitle": "一些常见问题",
+    "faq": [
+      [
+        "需要先准备完整的研究计划吗？",
+        "明确的兴趣和学习意愿就是很好的起点。我们可以一起讨论如何将兴趣发展为研究问题。"
+      ],
+      [
+        "哪些基础准备比较有用？",
+        "线性代数、概率、优化和编程是有用的基础。具体准备取决于研究主题，加入后也会继续学习。"
+      ],
+      [
+        "研究指导如何进行？",
+        "教师和高年级同学会就论文阅读、程序实现、实验设计和结果解释提供讨论与支持。研究问题和方向也会共同商讨。"
+      ],
+      [
+        "研究是否仅关注理论？",
+        "我们将理论与算法和评估相连接。实际问题帮助我们理解哪些假设重要，以及何处需要新的方法。"
+      ]
+    ],
+    "contactLead": "研究咨询、升学交流与合作洽谈。",
+    "contactHeading": "联系沈迅",
+    "contactIntro": "请简要介绍你自己以及咨询的目的。",
+    "addressHeading": "小金井校区",
+    "addressText": "东京农工大学<br>日本东京都小金井市中町2-24-16，邮编184-8588",
+    "visitTitle": "计划来访",
+    "visitText": "来访前请通过电子邮件预约。",
+    "office": "教师办公室",
+    "officeValue": "5号馆 403室",
+    "studentRoom": "学生研究室",
+    "studentRoomValue": "5号馆 401室",
+    "linksTitle": "研究者资料",
+    "universityLink": "大学官方网站",
+    "close": "关闭",
+    "graduate": "研究生院先進学際科学府（Graduate School of Advanced Interdisciplinary Science）",
+    "undergraduate": "工学部 · 智能信息系统工学科",
+    "affiliationTitle": "在东京农工大学的研究与教学",
+    "affiliationLabels": [
+      "教师所属",
+      "本科教学",
+      "研究生教学"
+    ],
+    "heroImageAlt": "通过数据连接以人为本的人工智能、交通出行与可再生能源的研究概念插图",
+    "illustrationCaption": "研究所面向的未来生活场景",
+    "flowTitle": "从观测到有依据的行动",
+    "flowNodes": [
+      [
+        "观测数据",
+        "状态、环境与人的行为"
+      ],
+      [
+        "预测与不确定性",
+        "条件分布与未来状态范围"
+      ],
+      [
+        "决策与干预",
+        "安全约束与长期性能"
+      ]
+    ],
+    "flowFeedback": "观测行动结果，更新模型与策略",
+    "flowFoundation": "共同基础：概率与统计 × 优化 × 机器学习与控制",
+    "evidence": "相关研究成果",
+    "applicationTitle": "与实际问题相连接",
+    "applicationItems": [
+      [
+        "医疗与人类支持",
+        "生物网络的异常早期信号、治疗策略研究，以及基于人类理解的护理支持。"
+      ],
+      [
+        "交通出行",
+        "驾驶行为理解、行人与驾驶风险预测、个性化驾驶教育。"
+      ],
+      [
+        "能源",
+        "风力发电预测，以及考虑风险的可再生能源和电力系统运行优化。"
+      ]
+    ],
+    "studentLegend": "† 表示与名册核对的学生作者，‡ 表示由沈迅共同指导的东京科学大学学生。标签区分学生第一作者与共同作者。未标记的论文仍可能包含曾指导的学生或其他机构的学生。",
+    "studentFilter": "指导或共同指导学生的论文",
+    "studentFirst": "学生第一作者",
+    "studentCoauthor": "学生共同作者",
+    "paperCount": "论文",
+    "studentCount": "已确认学生作者",
+    "otherCount": "其他成果",
+    "talk": "学术报告",
+    "thesis": "学位论文",
+    "patent": "专利",
+    "published": "已发表",
+    "accepted": "已录用",
+    "early_access": "在线优先发表",
+    "other": "其他",
+    "noYear": "年份待确认",
+    "resetFilters": "重置筛选",
+    "fundedTitle": "研究项目",
+    "fundedLead": "将数据驱动科学连接到支持人与社会的研究。这里介绍在公共科研资助下开展的项目。",
+    "fundedBtn": "了解研究项目",
+    "fundedEyebrow": "FUNDED RESEARCH",
+    "projectGoals": "研究目标",
+    "projectSource": "官方项目信息",
+    "projectPI": "项目负责人：沈迅",
+    "projectPast": "以往的研究资助",
+    "projectIllustrationNote": "插图用于表现研究所设想的应用场景，不代表设备已完成部署或实证验证。",
+    "coadvisedTitle": "共同指导的博士生",
+    "coadvisedGroup": "东京科学大学",
+    "coadvisedBy": "共同指导教师：沈迅",
+    "coadvisedPaper": "含共同指导学生"
+  }
+}

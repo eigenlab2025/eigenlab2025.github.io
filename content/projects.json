@@ -1,0 +1,253 @@
+[
+  {
+    "id": "boost",
+    "image": "project-care.webp",
+    "grant": "JPMJBY25C5",
+    "category": {
+      "ja": "JST BOOST（若手研究者支援）",
+      "en": "JST BOOST for Young Researchers",
+      "zh": "JST BOOST 青年研究者支持"
+    },
+    "period": {
+      "ja": "2025年度採択",
+      "en": "Selected in FY2025",
+      "zh": "2025年度获选"
+    },
+    "title": {
+      "ja": "多主体協働型介護支援システムの開発",
+      "en": "Development of a Multi-Agent Collaborative Care Support System",
+      "zh": "多主体协作型照护支持系统的开发"
+    },
+    "tagline": {
+      "ja": "人に合わせて、支援機器が協働する。",
+      "en": "Care technologies that work together around people.",
+      "zh": "理解人的需要，让辅助设备协同工作。"
+    },
+    "summary": {
+      "ja": "介護者・被介護者の意図や状態を理解し、ロボット、外骨格、AI車椅子が安全に協働する仕組みを研究します。介護者の負担軽減と、支援を受ける人の自立・生活の質の向上を目指します。",
+      "en": "We study how care robots, exoskeletons, and AI wheelchairs can coordinate around the intentions and conditions of caregivers and care recipients. Combining human understanding with safe learning and control, the project aims to reduce caregiver burden and support independence and quality of life.",
+      "zh": "研究如何理解照护者与被照护者的意图和状态，让机器人、外骨骼与AI轮椅安全协作。将人类理解、安全学习与控制相结合，力求减轻照护负担，支持被照护者的自主生活与生活质量。"
+    },
+    "goals": {
+      "ja": [
+        "映像・音声から介護の文脈と意図を理解",
+        "人の状態に応じた支援機器の安全な協調",
+        "負担・受容性・生活の質を含む評価"
+      ],
+      "en": [
+        "Understand care situations through vision and sound",
+        "Coordinate assistance with human-aware safety constraints",
+        "Evaluate burden, acceptability, and quality of life"
+      ],
+      "zh": [
+        "通过视觉与声音理解照护情境和意图",
+        "根据人的状态实现安全协同辅助",
+        "评价负担、接受程度与生活质量"
+      ]
+    },
+    "role": "PI",
+    "institutional_note": {
+      "ja": "研究実施機関：東京科学大学（クロスアポイントメント先）。東京農工大学の研究活動と連携して推進します。",
+      "en": "Research host: Institute of Science Tokyo through a cross-appointment, in coordination with the lab's research at TUAT.",
+      "zh": "研究实施机构：东京科学大学（交叉聘任单位），与东京农工大学实验室的研究协同推进。"
+    },
+    "url": "https://www.jst.go.jp/program/boost/yr/research/project_2025.html",
+    "featured": true
+  },
+  {
+    "id": "mobility",
+    "image": "project-mobility.webp",
+    "grant": "26K00525",
+    "category": {
+      "ja": "科研費 基盤研究（B）",
+      "en": "JSPS KAKENHI Scientific Research (B)",
+      "zh": "JSPS 科研费 基盘研究（B）"
+    },
+    "period": {
+      "ja": "2026年4月–2029年3月",
+      "en": "April 2026–March 2029",
+      "zh": "2026年4月—2029年3月"
+    },
+    "title": {
+      "ja": "共生モビリティ・デジタルツインに基づく生涯支援型高齢者運転教育システムの構築",
+      "en": "Lifelong Support for Older Driver Education through Symbiotic Mobility Digital Twins",
+      "zh": "基于共生出行数字孪生的老年驾驶者终身教育支持系统"
+    },
+    "tagline": {
+      "ja": "学びと運転支援を、長くつなぐ。",
+      "en": "Connect learning with support throughout driving life.",
+      "zh": "让驾驶学习与个性化支持持续相伴。"
+    },
+    "summary": {
+      "ja": "VRと生成AIを組み合わせたデジタルツインで、運転行動の先にある状況を予測・可視化します。限られたデータから学ぶ強化学習を通じて、個人の特性や変化に応じた継続的な教育と運転支援を目指します。",
+      "en": "A mobility digital twin combines VR and generative AI to visualize how driving situations may unfold. We develop learning methods that adapt with limited data, connecting continued education with personalized driving support as an older driver's characteristics and needs change.",
+      "zh": "将VR与生成式AI结合到出行数字孪生中，预测并可视化驾驶行为可能带来的情境。研究利用有限数据持续适应的强化学习方法，使驾驶教育和个性化辅助随驾驶者的特征与需求共同演进。"
+    },
+    "goals": {
+      "ja": [
+        "運転行動の展開を予測・可視化するデジタルツイン",
+        "知識を活用した効率的な学習と個別適応",
+        "継続的な教育と日常の運転支援の接続"
+      ],
+      "en": [
+        "Predict and visualize evolving driving situations",
+        "Learn efficiently from knowledge and limited data",
+        "Connect continued education with everyday driving support"
+      ],
+      "zh": [
+        "预测并可视化驾驶情境的动态演变",
+        "结合知识与有限数据开展高效适应学习",
+        "贯通持续教育与日常驾驶辅助"
+      ]
+    },
+    "role": "PI",
+    "institutional_note": {
+      "ja": "研究機関：東京農工大学。研究分担者：藤澤克樹（東京科学大学）、井上正樹（慶應義塾大学）。",
+      "en": "Host: TUAT. Co-investigators: Katsuki Fujisawa (Institute of Science Tokyo) and Masaki Inoue (Keio University).",
+      "zh": "承担机构：东京农工大学。共同研究负责人：藤泽克树（东京科学大学）、井上正树（庆应义塾大学）。"
+    },
+    "url": "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-26K00525/",
+    "featured": true
+  },
+  {
+    "id": "early-career",
+    "image": "project-mobility.webp",
+    "grant": "24K16752",
+    "category": {
+      "ja": "科研費 若手研究",
+      "en": "JSPS KAKENHI Early-Career Scientists",
+      "zh": "JSPS 科研费 青年研究"
+    },
+    "period": {
+      "ja": "2024年4月–2027年3月",
+      "en": "April 2024–March 2027",
+      "zh": "2024年4月—2027年3月"
+    },
+    "title": {
+      "ja": "個人特性への理解に基づくインタラクティブな高齢者運転教育システムの開発",
+      "en": "Interactive Older Driver Education Based on an Understanding of Individual Characteristics",
+      "zh": "基于个体特征理解的交互式老年驾驶教育系统"
+    },
+    "tagline": {
+      "ja": "一人ひとりの判断や行動に合う教育へ。",
+      "en": "Driver education informed by the individual.",
+      "zh": "让驾驶教育适应每个人的判断与行为。"
+    },
+    "summary": {
+      "ja": "運転行動のモデル化と、複数の情報を扱うAIによる対話を組み合わせます。高齢運転者の判断や行動の特徴を捉え、その人にとって理解しやすく、納得できる運転教育の実現を目指します。",
+      "en": "We combine models of driving behavior with multimodal AI for two-way interaction. By understanding an older driver's individual decision patterns and behavior, the project aims to make driving education more responsive, understandable, and relevant to each learner.",
+      "zh": "将驾驶行为建模与多模态AI的双向交互结合，理解老年驾驶者的个体判断模式与行为特征，探索更贴合个人、更易理解且有助于形成认同的驾驶教育。"
+    },
+    "goals": {
+      "ja": [
+        "個人の運転特性を定量的に捉える行動モデル",
+        "複数の観測情報に基づく対話型AI",
+        "個人特性に応じた教育システムの設計・評価"
+      ],
+      "en": [
+        "Model individual driving characteristics",
+        "Develop multimodal AI for two-way interaction",
+        "Design and evaluate personalized driver education"
+      ],
+      "zh": [
+        "建立刻画个体驾驶特征的行为模型",
+        "开发结合多种观测信息的交互式AI",
+        "设计并评价个性化驾驶教育系统"
+      ]
+    },
+    "role": "PI",
+    "institutional_note": {
+      "ja": "研究機関：東京農工大学。",
+      "en": "Research institution: Tokyo University of Agriculture and Technology.",
+      "zh": "研究机构：东京农工大学。"
+    },
+    "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K16752/",
+    "featured": true
+  },
+  {
+    "id": "rois-driving",
+    "image": "",
+    "grant": "2023-SRP-06",
+    "category": {
+      "ja": "情報・システム研究機構 戦略的研究プロジェクト",
+      "en": "ROIS Strategic Research Project",
+      "zh": "信息与系统研究机构（ROIS）战略研究项目"
+    },
+    "period": {
+      "ja": "2023年度採択 · 終了",
+      "en": "Selected in FY2023 · Completed",
+      "zh": "2023年度获选 · 已结束"
+    },
+    "title": {
+      "ja": "人間中心型高齢者運転教育システムの開発",
+      "en": "Development of a Human-Centric Elderly Driving Education System",
+      "zh": "以人为中心的老年驾驶教育系统开发"
+    },
+    "tagline": {
+      "ja": "人間理解を、運転教育の基盤に。",
+      "en": "Build driver education around human understanding.",
+      "zh": "以理解人的特点为驾驶教育的基础。"
+    },
+    "summary": {
+      "ja": "高齢者の運転教育を人間中心の視点から捉え、個人の特性を踏まえた支援につなげる研究プロジェクトです。",
+      "en": "A research project approaching older driver education from a human-centered perspective, with attention to individual characteristics.",
+      "zh": "从以人为中心的视角研究老年驾驶教育，关注个体特征与适合个人的支持方式。"
+    },
+    "goals": {
+      "ja": [],
+      "en": [],
+      "zh": []
+    },
+    "role": "PI",
+    "institutional_note": {
+      "ja": "情報・システム研究機構の採択課題一覧に掲載。",
+      "en": "Listed in the ROIS archive of funded research projects.",
+      "zh": "收录于ROIS资助研究项目档案。"
+    },
+    "url": "https://www.rois.ac.jp/research/kakokadai.html",
+    "featured": false
+  },
+  {
+    "id": "ism-optimization",
+    "image": "",
+    "grant": "2023-ISMCRP-2016",
+    "category": {
+      "ja": "統計数理研究所 公募型共同利用（一般研究2）",
+      "en": "ISM Cooperative Research Program",
+      "zh": "统计数理研究所（ISM）共同研究计划"
+    },
+    "period": {
+      "ja": "2023年度採択",
+      "en": "Selected in FY2023",
+      "zh": "2023年度获选"
+    },
+    "title": {
+      "ja": "確率的不確かさを含むシステムの確率制約付きデータ駆動分布型最適制御",
+      "en": "Chance-Constrained Data-Driven Measurable Control Policy of Uncertain Systems",
+      "zh": "含随机不确定性系统的概率约束数据驱动分布型最优控制"
+    },
+    "tagline": {
+      "ja": "データと確率制約から、制御方策を設計する。",
+      "en": "Design control policies from data and chance constraints.",
+      "zh": "结合数据与概率约束设计控制策略。"
+    },
+    "summary": {
+      "ja": "確率的な不確かさを含むシステムを対象に、データと確率制約に基づく最適制御の数理を研究します。",
+      "en": "Mathematical research on optimal control based on data and chance constraints for systems subject to stochastic uncertainty.",
+      "zh": "面向具有随机不确定性的系统，研究基于数据与概率约束的最优控制数学方法。"
+    },
+    "goals": {
+      "ja": [],
+      "en": [],
+      "zh": []
+    },
+    "role": "PI",
+    "institutional_note": {
+      "ja": "統計数理研究所の2023年度採択課題一覧に掲載。",
+      "en": "Listed in ISM's FY2023 cooperative research awards.",
+      "zh": "收录于统计数理研究所2023年度共同研究资助名单。"
+    },
+    "url": "https://www.ism.ac.jp/kyodo/saitaku/2023/2023saitakulist.pdf",
+    "featured": false
+  }
+]
