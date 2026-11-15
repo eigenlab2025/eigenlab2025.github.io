@@ -164,7 +164,8 @@
       "forecast": "Time-series prediction",
       "learning": "Learning & decision-making",
       "acoustic": "Acoustic distance estimation",
-      "masters": "Master’s program"
+      "masters": "Master’s program",
+      "doctoral_oct2026": "Doctoral student · Enrolled October 2026"
     },
     "publicationsLead": "Xun Shen’s research publications, including journal articles, conference papers, invited talks, theses, and a patent application. Titles are shown in their original language.",
     "search": "Search titles, authors, or venues",
@@ -499,7 +500,8 @@
       "forecast": "時系列予測",
       "learning": "学習と意思決定",
       "acoustic": "音響情報からの距離推定",
-      "masters": "修士課程"
+      "masters": "修士課程",
+      "doctoral_oct2026": "博士後期課程 · 2026年10月入学"
     },
     "publicationsLead": "瀋迅の研究業績一覧。学術雑誌論文・国際会議論文に加え、招待講演・学位論文・特許出願を掲載しています。論文タイトルは原題で紹介しています。",
     "search": "タイトル・著者・掲載先で検索",
@@ -834,7 +836,8 @@
       "forecast": "时间序列预测",
       "learning": "学习与决策",
       "acoustic": "声学距离估计",
-      "masters": "硕士课程"
+      "masters": "硕士课程",
+      "doctoral_oct2026": "博士研究生 · 2026年10月入学"
     },
     "publicationsLead": "沈迅的研究成果目录，包括期刊论文、会议论文、邀请报告、学位论文与专利申请。论文题目保留原文。",
     "search": "搜索标题、作者或发表刊物",
