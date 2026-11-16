@@ -110,6 +110,80 @@
     "featured": true
   },
   {
+    "id": "moonshot2",
+    "image": "project-moonshot2.svg",
+    "grant": "JPMJMS2021",
+    "category": {
+      "ja": "JST ムーンショット目標2",
+      "en": "JST Moonshot Goal 2",
+      "zh": "JST Moonshot 目标2"
+    },
+    "period": {
+      "ja": "進行中",
+      "en": "Ongoing",
+      "zh": "进行中"
+    },
+    "role": "Participant",
+    "role_label": {
+      "ja": "研究参加者：瀋迅（井村順一PIグループ）",
+      "en": "Research participant: Xun Shen (PI Jun-ichi Imura’s group)",
+      "zh": "研究参与者：沈迅（井村顺一PI研究组）"
+    },
+    "title": {
+      "ja": "複雑臓器制御系の数理的包括理解と超早期精密医療への挑戦",
+      "en": "Comprehensive Mathematical Understanding of the Complex Control System between Organs and Challenge for Ultra-Early Precision Medicine",
+      "zh": "复杂器官控制系统的全面数学理解与超早期精准医疗探索"
+    },
+    "tagline": {
+      "ja": "臓器のつながりから、疾患の兆しを捉える。",
+      "en": "Understand organ networks to detect early signs of disease.",
+      "zh": "理解器官间的联系，探寻疾病的早期征兆。"
+    },
+    "image_alt": {
+      "ja": "臓器間ネットワークを観測・数理モデル化し、疾患の超早期予測・予防を目指す研究の概念図",
+      "en": "Concept illustration of observing and modeling organ networks toward ultra-early disease prediction and prevention",
+      "zh": "通过观测和数学建模理解器官网络，探索疾病超早期预测与预防的研究概念图"
+    },
+    "summary": {
+      "ja": "2050年までに疾患の超早期予測・予防ができる社会の実現を目指す目標2の研究に参加しています。合原一幸PMのプロジェクトにおいて、井村順一PIのグループで、臓器間ネットワークを理解するための数理・観測・制御の研究に取り組みます。",
+      "en": "We participate in Goal 2, which aims for ultra-early disease prediction and prevention by 2050. Within PM Kazuyuki Aihara’s project, Xun Shen works in PI Jun-ichi Imura’s group on mathematical, observation, and control approaches to understanding organ networks.",
+      "zh": "参与以2050年实现疾病超早期预测与预防为目标的研究。在合原一幸PM的项目中，沈迅作为井村顺一PI研究组的参与者，开展理解器官网络的数学、观测与控制研究。"
+    },
+    "goals_heading": {
+      "ja": "グループの研究テーマ",
+      "en": "Group research focus",
+      "zh": "研究组的研究主题"
+    },
+    "goals": {
+      "ja": [
+        "臓器間ネットワークを捉える観測・推定",
+        "健康状態の変化を理解する数理モデル",
+        "超早期の介入を支える制御理論"
+      ],
+      "en": [
+        "Observe and estimate interactions between organs",
+        "Model changes in health states mathematically",
+        "Develop control theory for ultra-early intervention"
+      ],
+      "zh": [
+        "观测与估计器官间的相互作用",
+        "建立理解健康状态变化的数学模型",
+        "研究支持超早期干预的控制理论"
+      ]
+    },
+    "institutional_note": {
+      "ja": "プロジェクトマネージャー（PM）：合原一幸。参加グループの課題推進者（PI）：井村順一（東京科学大学）。",
+      "en": "Project Manager (PM): Kazuyuki Aihara. Group Principal Investigator (PI): Jun-ichi Imura (Institute of Science Tokyo).",
+      "zh": "项目经理（PM）：合原一幸。所参与研究组的负责人（PI）：井村顺一（东京科学大学）。"
+    },
+    "url": "https://www.jst.go.jp/moonshot/program/goal2/21_aihara.html",
+    "localized_url": {
+      "en": "https://www.jst.go.jp/moonshot/en/program/goal2/21_aihara.html"
+    },
+    "goal_url": "https://www8.cao.go.jp/cstp/moonshot/sub2.html",
+    "featured": true
+  },
+  {
     "id": "early-career",
     "image": "project-mobility.webp",
     "grant": "24K16752",
@@ -119,9 +193,9 @@
       "zh": "JSPS 科研费 青年研究"
     },
     "period": {
-      "ja": "2024年4月–2027年3月",
-      "en": "April 2024–March 2027",
-      "zh": "2024年4月—2027年3月"
+      "ja": "2024年度採択 · 終了",
+      "en": "Selected in FY2024 · Completed",
+      "zh": "2024年度获选 · 已结束"
     },
     "title": {
       "ja": "個人特性への理解に基づくインタラクティブな高齢者運転教育システムの開発",
@@ -134,9 +208,9 @@
       "zh": "让驾驶教育适应每个人的判断与行为。"
     },
     "summary": {
-      "ja": "運転行動のモデル化と、複数の情報を扱うAIによる対話を組み合わせます。高齢運転者の判断や行動の特徴を捉え、その人にとって理解しやすく、納得できる運転教育の実現を目指します。",
-      "en": "We combine models of driving behavior with multimodal AI for two-way interaction. By understanding an older driver's individual decision patterns and behavior, the project aims to make driving education more responsive, understandable, and relevant to each learner.",
-      "zh": "将驾驶行为建模与多模态AI的双向交互结合，理解老年驾驶者的个体判断模式与行为特征，探索更贴合个人、更易理解且有助于形成认同的驾驶教育。"
+      "ja": "運転行動のモデル化と、複数の情報を扱うAIによる対話を組み合わせ、個人の判断や行動の特徴に応じた高齢者運転教育システムを研究しました。",
+      "en": "This completed project studied personalized older-driver education by combining driving-behavior models with multimodal AI for two-way interaction.",
+      "zh": "本项目已结束，研究通过驾驶行为建模与多模态AI双向交互，探索适应个体判断与行为特征的老年驾驶教育系统。"
     },
     "goals": {
       "ja": [
@@ -162,7 +236,8 @@
       "zh": "研究机构：东京农工大学。"
     },
     "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K16752/",
-    "featured": true
+    "featured": false,
+    "status": "completed"
   },
   {
     "id": "rois-driving",

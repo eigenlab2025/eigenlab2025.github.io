@@ -88,5 +88,7 @@ body{font-family:var(--sans)}h1,h2,h3,h4{font-family:var(--sans);font-weight:700
 @media(max-width:600px){.hero h1{font-size:37px}.page-head h1{font-size:37px}.publication h2{font-size:17px}.hero-illustration{margin-top:16px}html[lang=ja] .hero h1,html[lang=zh-CN] .hero h1{font-size:28px;line-height:1.55}}
 .member-native{display:block;font-size:12px;font-weight:400;margin-top:7px;color:var(--muted)}.member-affiliation{font-size:11px;line-height:1.7;margin-top:14px;color:var(--ink);border-top:1px solid var(--line);padding-top:12px}.coadvised-label{display:inline-block;font-size:10px;color:var(--blue);background:#edf5fa;border:1px solid #cbdfea;padding:4px 7px;border-radius:4px;margin-top:12px}.coadvised-badge{font-size:10px;letter-spacing:0;text-transform:none;color:var(--blue);background:#edf5fa;border:1px solid #b6d4e8;border-radius:4px;padding:3px 8px}
 
+.past-project{scroll-margin-top:115px}
+
 /* Principal investigator portrait supplied by Xun Shen. */
 .faculty-sign{padding:0;display:block;overflow:hidden;background:#f5f7f7}.faculty-sign>img{display:block;width:100%;height:auto;aspect-ratio:728/816;object-fit:contain}.faculty-sign>div{padding:24px 28px}.faculty-sign h2{margin:0 0 5px}.faculty-sign p{margin:0}

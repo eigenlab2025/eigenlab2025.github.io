@@ -161,16 +161,22 @@ def affiliations(c):
     return '<section class="affiliations"><h2>'+c['affiliationTitle']+'</h2><dl>'+''.join(f'<div><dt>{lab}</dt><dd>{val}</dd></div>' for lab,val in zip(c['affiliationLabels'],vals))+'</dl></section>'
 
 def project_preview(lang,c,p):
-    return f'<article class="funded-card">{link(lang,"projects",pic(p["image"],p["tagline"][lang]),section=p["id"])}<div class="funded-card-body"><div class="eyebrow">{p["category"][lang]}</div><h3>{link(lang,"projects",p["tagline"][lang],section=p["id"])}</h3><p>{p["title"][lang]}</p><small>{p["grant"]} · {p["period"][lang]}</small>{link(lang,"projects",arrow(c["learn"]),"text-link",p["id"])}</div></article>'
+    role=f'<br>{e(p["role_label"][lang])}' if p.get('role_label') else ''
+    return f'<article class="funded-card">{link(lang,"projects",pic(p["image"],p.get("image_alt",p["tagline"])[lang]),section=p["id"])}<div class="funded-card-body"><div class="eyebrow">{p["category"][lang]}</div><h3>{link(lang,"projects",p["tagline"][lang],section=p["id"])}</h3><p>{p["title"][lang]}</p><small>{p["grant"]} · {p["period"][lang]}{role}</small>{link(lang,"projects",arrow(c["learn"]),"text-link",p["id"])}</div></article>'
 
 def projects(lang,c):
     items='';past=''
     for p in PROJECTS:
         if not p['featured']:
-            past+=f'<article class="past-project"><div class="eyebrow">{p["category"][lang]}</div><h3>{p["title"][lang]}</h3><p>{p["summary"][lang]}</p><small>{p["grant"]} · {p["period"][lang]}</small><div class="actions">{external(p["url"],arrow(c["projectSource"]),"text-link")}</div></article>'
+            past+=f'<article class="past-project" id="{p["id"]}"><div class="eyebrow">{p["category"][lang]}</div><h3>{p["title"][lang]}</h3><p>{p["summary"][lang]}</p><small>{p["grant"]} · {p["period"][lang]}</small><div class="actions">{external(p["url"],arrow(c["projectSource"]),"text-link")}</div></article>'
             continue
         goals=''.join(f'<li>{x}</li>' for x in p['goals'][lang])
-        items+=f'<article class="funded-project" id="{p["id"]}"><div class="funded-intro"><div><div class="eyebrow">{p["category"][lang]}</div><h2>{p["tagline"][lang]}</h2><h3>{p["title"][lang]}</h3><p class="project-meta">{p["grant"]} · {p["period"][lang]}<br>{c["projectPI"]}</p></div><figure>{pic(p["image"],p["tagline"][lang])}</figure></div><div class="funded-details"><div><p class="project-summary">{p["summary"][lang]}</p><p class="institutional-note">{p["institutional_note"][lang]}</p><div class="actions">{external(p["url"],arrow(c["projectSource"]),"text-link")}</div></div><div class="project-goals"><h3>{c["projectGoals"]}</h3><ol>{goals}</ol></div></div></article>'
+        role=e(p['role_label'][lang]) if p.get('role_label') else c['projectPI']
+        goals_heading=p['goals_heading'][lang] if p.get('goals_heading') else c['projectGoals']
+        sources=external(p.get('localized_url',{}).get(lang,p['url']),arrow(c['projectSource']),'text-link')
+        if p.get('goal_url'):
+            sources+=external(p['goal_url'],arrow(c['projectGoalSource']),'text-link')
+        items+=f'<article class="funded-project" id="{p["id"]}"><div class="funded-intro"><div><div class="eyebrow">{p["category"][lang]}</div><h2>{p["tagline"][lang]}</h2><h3>{p["title"][lang]}</h3><p class="project-meta">{p["grant"]} · {p["period"][lang]}<br>{role}</p></div><figure>{pic(p["image"],p.get("image_alt",p["tagline"])[lang])}</figure></div><div class="funded-details"><div><p class="project-summary">{p["summary"][lang]}</p><p class="institutional-note">{p["institutional_note"][lang]}</p><div class="actions">{sources}</div></div><div class="project-goals"><h3>{goals_heading}</h3><ol>{goals}</ol></div></div></article>'
     return f'<div class="container">{page_head(c,7,"fundedLead")}{items}<p class="illustration-note">{c["projectIllustrationNote"]}</p><section class="past-section"><h2>{c["projectPast"]}</h2><div class="past-grid">{past}</div></section></div>{cta(lang,c)}'
 
 RENDER={'projects':projects,'home':home,'research':research,'people':people,'publications':publications,'life':life,'join':join,'contact':contact}

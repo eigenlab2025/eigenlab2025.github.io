@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Organ networks and ultra-early disease prevention</title>
+  <desc id="desc">A conceptual organ network, mathematical observations, and a protective health symbol illustrate medical research. The curves are schematic, not experimental results.</desc>
+  <defs>
+    <linearGradient id="wash" x2="1" y2="1"><stop stop-color="#f1faf7"/><stop offset="1" stop-color="#f4effa"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#20384d" flood-opacity=".07"/></filter>
+  </defs>
+  <rect x="16" y="24" width="768" height="472" rx="38" fill="url(#wash)"/>
+  <path d="M76 425H727" stroke="#d7e9e6" stroke-width="3" stroke-linecap="round"/>
+  <!-- A human-centered organ network. -->
+  <g fill="none" stroke="#b6d4d3" stroke-width="3" stroke-linecap="round">
+    <path d="M170 125L122 276L292 322L170 125L335 165L122 276M335 165L292 322"/>
+    <path d="M198 243L170 125M198 243L122 276M198 243L292 322M198 243L335 165" stroke-dasharray="5 9"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="204" cy="242" r="57" fill="#fff" stroke="#d6ebe3" stroke-width="2"/>
+    <circle cx="204" cy="225" r="16" fill="#a7d6c8"/>
+    <path d="M175 276V264C175 235 233 235 233 264V276" fill="#a7d6c8"/>
+    <circle cx="170" cy="125" r="49" fill="#fff"/>
+    <circle cx="122" cy="276" r="46" fill="#fff"/>
+    <circle cx="335" cy="165" r="48" fill="#fff"/>
+    <circle cx="292" cy="336" r="46" fill="#fff"/>
+  </g>
+  <!-- Brain, heart, lungs and a liver: stylized organ symbols. -->
+  <g stroke="#6a49a2" stroke-width="3.5" fill="#e8def5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M169 100C158 91 148 101 149 111C136 112 136 129 143 134C139 146 153 157 166 148L170 144L175 149C189 155 199 146 196 135C205 127 200 111 190 111C193 99 178 92 169 100Z"/>
+    <path d="M170 102V144M149 113L158 119L156 129M190 114L182 121L184 131M146 137L157 135M194 138L184 139" fill="none"/>
+  </g>
+  <path d="M122 294L100 272C83 252 107 238 122 254C138 238 161 252 144 272Z" fill="#e7a9b5" stroke="#bd657d" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="#d2e9f7" stroke="#2278b7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M329 145C322 130 310 147 307 160C300 185 312 194 326 183Z"/>
+    <path d="M341 145C348 130 360 147 363 160C370 185 358 194 344 183Z"/>
+    <path d="M335 133V157L321 169M335 157L349 169" fill="none"/>
+  </g>
+  <path d="M266 325C283 314 304 318 317 326C322 331 317 340 310 341L293 341L278 355C267 364 258 336 266 325Z" fill="#e6d5f2" stroke="#9473b8" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Observation and modeling panel, with schematic signals and state estimates. -->
+  <path d="M388 214H417M408 205L417 214L408 223" fill="none" stroke="#97b4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="441" y="101" width="274" height="256" rx="19" fill="#fff" stroke="#dce8ed" stroke-width="2"/>
+    <path d="M441 139H715" stroke="#e2ecf0" stroke-width="2"/>
+    <circle cx="462" cy="120" r="4" fill="#8ebcab"/><circle cx="476" cy="120" r="4" fill="#a7c9df"/><circle cx="490" cy="120" r="4" fill="#c3b3dc"/>
+  </g>
+  <g fill="none" stroke="#e8eff2" stroke-width="1.5"><path d="M471 171H684M471 201H684M471 231H684M471 261H684M471 291H684M496 160V313M539 160V313M582 160V313M625 160V313M668 160V313"/></g>
+  <path d="M474 227C501 229 502 191 526 193S552 239 577 224S610 176 635 187S666 229 685 207" fill="none" stroke="#2278b7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M474 276C502 278 523 273 544 267S590 246 614 252S655 278 685 274" fill="none" stroke="#00876c" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#fff" stroke="#2278b7" stroke-width="3"><circle cx="500" cy="208" r="5"/><circle cx="550" cy="220" r="5"/><circle cx="607" cy="193" r="5"/><circle cx="666" cy="216" r="5"/></g>
+  <path d="M474 313H685" stroke="#cbd9e1" stroke-width="2"/>
+  <!-- Prevention represented by a shield and a health signal. -->
+  <g filter="url(#shadow)">
+    <path d="M627 329L686 309L745 329V374C745 409 710 434 686 444C662 434 627 409 627 374Z" fill="#fff" stroke="#92c7b4" stroke-width="3"/>
+    <path d="M640 340L686 324L732 340V374C732 399 704 420 686 429C668 420 640 399 640 374Z" fill="#e3f3ea"/>
+    <path d="M650 375H665L676 352L689 399L701 370H721" fill="none" stroke="#00876c" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#fff" stroke="#cae2da" stroke-width="2"><rect x="388" y="383" width="50" height="50" rx="14"/><rect x="458" y="383" width="50" height="50" rx="14"/><rect x="528" y="383" width="50" height="50" rx="14"/></g>
+  <g fill="none" stroke="#00876c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="410" cy="405" r="9"/><path d="M417 412L423 419M474 418V399L483 408L492 396M543 407L550 414L564 400"/></g>
+  <path d="M442 408H454M512 408H524" stroke="#a9cbbf" stroke-width="2"/>
+</svg>

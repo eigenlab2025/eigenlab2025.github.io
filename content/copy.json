@@ -333,7 +333,8 @@
     "coadvisedTitle": "Co-supervised doctoral students",
     "coadvisedGroup": "Institute of Science Tokyo",
     "coadvisedBy": "Co-supervised by Xun Shen",
-    "coadvisedPaper": "Co-supervised student"
+    "coadvisedPaper": "Co-supervised student",
+    "projectGoalSource": "Goal 2 (Cabinet Office)"
   },
   "ja": {
     "lang": "ja",
@@ -669,7 +670,8 @@
     "coadvisedTitle": "共同指導の博士課程学生",
     "coadvisedGroup": "東京科学大学",
     "coadvisedBy": "共同指導：瀋迅",
-    "coadvisedPaper": "共同指導学生を含む"
+    "coadvisedPaper": "共同指導学生を含む",
+    "projectGoalSource": "目標2（内閣府）"
   },
   "zh": {
     "lang": "zh-CN",
@@ -1005,6 +1007,7 @@
     "coadvisedTitle": "共同指导的博士生",
     "coadvisedGroup": "东京科学大学",
     "coadvisedBy": "共同指导教师：沈迅",
-    "coadvisedPaper": "含共同指导学生"
+    "coadvisedPaper": "含共同指导学生",
+    "projectGoalSource": "目标2（内阁府）"
   }
 }
