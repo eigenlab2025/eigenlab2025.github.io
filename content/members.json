@@ -93,7 +93,12 @@
     "name": "史福コウ",
     "group": "masters",
     "image": "source-p3-9.webp",
-    "topic": "masters"
+    "topic": "masters",
+    "names": {
+      "ja": "史福コウ",
+      "en": "Fuhao SHI",
+      "zh": "史福昊"
+    }
   },
   {
     "name": "松田練慈",
@@ -112,5 +117,23 @@
     "group": "undergrad",
     "image": "source-p3-12.webp",
     "topic": "decision"
+  },
+  {
+    "name": "小森悠太",
+    "group": "undergrad",
+    "image": null,
+    "topic": "undergrad_nov2026"
+  },
+  {
+    "name": "片山朋和",
+    "group": "undergrad",
+    "image": null,
+    "topic": "undergrad_nov2026"
+  },
+  {
+    "name": "竹内惇人",
+    "group": "undergrad",
+    "image": null,
+    "topic": "undergrad_nov2026"
   }
 ]

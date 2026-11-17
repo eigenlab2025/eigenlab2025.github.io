@@ -1,0 +1,167 @@
+[
+  {
+    "id": "apac-hpc-ai-2026",
+    "date": "2026-11-16",
+    "translations": {
+      "ja": {
+        "category": "受賞",
+        "title": "小森悠太さん・片山朋和さんの参加チームが国際HPC・AI大会で総合第2位",
+        "summary": "第9回 APAC HPC-AI Competitionで、両名が参加する合同チーム「Tokyo Rapids w/ RIKEN」が総合第2位を受賞しました。",
+        "paragraphs": [
+          "瀋研究室の学部3年生、小森悠太さんと片山朋和さんが参加する「Tokyo Rapids w/ RIKEN」が、第9回 APAC HPC-AI Competitionで総合第2位（Second Place）を受賞しました。2026年11月16日、主催者がSC26で結果を発表しました。",
+          "同チームは、東京理科大学・東京農工大学・芝浦工業大学の合同チームです。総合第2位には2チームが選ばれました。",
+          "大会にはアジア太平洋の13地域から48チームが参加し、33チームが最終審査に進みました。シンガポール国立大学（NUS）と南洋理工大学（NTU）を含む世界有数の大学の学生たちが、HPCとAIの性能最適化に取り組みました。",
+          "課題は、OpenFOAMによる流体シミュレーションの高速化と、大規模言語モデルQwen3の応答遅延制約下での推論性能向上です。小森さん、片山さん、そしてチームの皆さん、おめでとうございます！"
+        ]
+      },
+      "en": {
+        "category": "Award",
+        "title": "Komori and Katayama’s team wins overall Second Place at the APAC HPC-AI Competition",
+        "summary": "Tokyo Rapids w/ RIKEN, including our students 小森悠太 (Komori) and 片山朋和 (Katayama), received overall Second Place at the 9th APAC HPC-AI Competition.",
+        "paragraphs": [
+          "Tokyo Rapids w/ RIKEN, including Shen Laboratory’s third-year undergraduates 小森悠太 (Komori) and 片山朋和 (Katayama), won overall Second Place at the 9th APAC HPC-AI Competition. The organizers announced the results at SC26 on November 16, 2026.",
+          "The team brings together students from Tokyo University of Science, Tokyo University of Agriculture and Technology, and Shibaura Institute of Technology. Two teams received the overall Second Place award.",
+          "The competition brought together 48 teams from 13 Asia-Pacific regions, with 33 reaching the final stage. Participants included students from world-leading universities such as the National University of Singapore (NUS) and Nanyang Technological University (NTU).",
+          "The challenges involved accelerating OpenFOAM fluid simulations and improving Qwen3 large language model inference performance under strict latency constraints. Congratulations to Komori, Katayama and the entire team!"
+        ]
+      },
+      "zh": {
+        "category": "获奖",
+        "title": "小森悠太、片山朋和所在团队荣获亚太HPC-AI国际竞赛综合第二名",
+        "summary": "在第九届 APAC HPC-AI Competition 中，两位同学参加的联合团队 Tokyo Rapids w/ RIKEN 荣获综合第二名。",
+        "paragraphs": [
+          "沈迅实验室的本科三年级学生小森悠太、片山朋和参加的 Tokyo Rapids w/ RIKEN 团队，在第九届 APAC HPC-AI Competition 中荣获综合第二名（Second Place）。主办方于2026年11月16日在SC26上公布了比赛结果。",
+          "该团队由东京理科大学、东京农工大学和芝浦工业大学的学生联合组成。本届共有两支团队获得综合第二名。",
+          "比赛吸引了亚太13个地区的48支队伍，其中33支进入最终评审。参赛队伍包括来自新加坡国立大学（NUS）、南洋理工大学（NTU）等世界知名高校的学生团队。",
+          "竞赛任务包括加速OpenFOAM流体仿真，以及在严格响应延迟约束下提高Qwen3大语言模型的推理性能。祝贺小森、片山两位同学及全体队员！"
+        ]
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.hpcadvisorycouncil.com/pdf/9th-apac-hpc-ai-competition.pdf",
+        "label": {
+          "ja": "主催者による結果発表（PDF）",
+          "en": "Official results announcement (PDF)",
+          "zh": "主办方获奖公告（PDF）"
+        }
+      }
+    ]
+  },
+  {
+    "id": "welcome-undergraduates-2026-11",
+    "date": "2026-11",
+    "translations": {
+      "ja": {
+        "category": "新メンバー",
+        "title": "学部3年生の小森悠太さん・片山朋和さん・竹内惇人さんが配属されました",
+        "summary": "2026年11月、3名が瀋研究室の新しいメンバーとして加わりました。",
+        "paragraphs": [
+          "2026年11月より、学部3年生の小森悠太さん、片山朋和さん、竹内惇人さんが瀋研究室に配属されました。",
+          "3名を迎え、ともに学び、研究に取り組めることを楽しみにしています。これからどうぞよろしくお願いします！"
+        ]
+      },
+      "en": {
+        "category": "New members",
+        "title": "Three third-year undergraduates join Shen Laboratory",
+        "summary": "We welcomed 小森悠太, 片山朋和 and 竹内惇人 to the laboratory in November 2026.",
+        "paragraphs": [
+          "Three third-year undergraduate students, 小森悠太 (Komori), 片山朋和 (Katayama) and 竹内惇人 (Takeuchi), joined Shen Laboratory in November 2026.",
+          "We look forward to learning and exploring new research ideas together. Welcome to the lab!"
+        ]
+      },
+      "zh": {
+        "category": "新成员",
+        "title": "欢迎三位本科三年级同学加入实验室",
+        "summary": "2026年11月，小森悠太、片山朋和、竹内惇人三位同学加入沈迅实验室。",
+        "paragraphs": [
+          "2026年11月，本科三年级学生小森悠太、片山朋和、竹内惇人加入沈迅实验室。",
+          "欢迎三位新成员！期待一起学习、探索，共同开启研究之旅。"
+        ]
+      }
+    },
+    "related": {
+      "page": "people",
+      "section": "undergrad",
+      "label_key": "membersLink"
+    }
+  },
+  {
+    "id": "nus-workshop-2026",
+    "date": "2026-09",
+    "translations": {
+      "en": {
+        "category": "RESEARCH EXCHANGE",
+        "title": "A student presentation at NUS",
+        "summary": "三歩一尚志 presented at the 10th NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence in Singapore, 24–26 September 2026."
+      },
+      "ja": {
+        "category": "研究交流",
+        "title": "NUSで学生が研究発表",
+        "summary": "三歩一尚志さんが、2026年9月24〜26日にシンガポールで開催された第10回 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligenceで発表しました。"
+      },
+      "zh": {
+        "category": "学术交流",
+        "title": "学生在新加坡国立大学发表研究",
+        "summary": "三歩一尚志于2026年9月24日至26日在新加坡举行的第10届 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence上发表研究。"
+      }
+    },
+    "related": {
+      "page": "life",
+      "section": "nus",
+      "label_key": "activityLink"
+    }
+  },
+  {
+    "id": "fujitsu-visit-2026",
+    "date": "2026-02",
+    "translations": {
+      "en": {
+        "category": "LAB ACTIVITY",
+        "title": "A visit to Fujitsu",
+        "summary": "Lab members joined a company visit and explored Fujitsu’s history."
+      },
+      "ja": {
+        "category": "研究室の活動",
+        "title": "富士通の見学に参加",
+        "summary": "研究室のメンバーが富士通を訪問し、歴史館を見学しました。"
+      },
+      "zh": {
+        "category": "实验室活动",
+        "title": "参观富士通",
+        "summary": "实验室成员参加企业参访，了解富士通的发展历史。"
+      }
+    },
+    "related": {
+      "page": "life",
+      "section": "fujitsu",
+      "label_key": "activityLink"
+    }
+  },
+  {
+    "id": "neurips-spotlight-2025",
+    "date": "2025",
+    "translations": {
+      "en": {
+        "category": "PUBLICATION",
+        "title": "OGSRL selected as a NeurIPS Spotlight",
+        "summary": "Our work examines data support and safety constraints in offline reinforcement learning for treatment optimization."
+      },
+      "ja": {
+        "category": "論文",
+        "title": "OGSRLがNeurIPS Spotlightに採択",
+        "summary": "医療の治療方策最適化に向け、データによる裏付けと安全制約を考慮したオフライン強化学習を研究しました。"
+      },
+      "zh": {
+        "category": "论文",
+        "title": "OGSRL入选NeurIPS Spotlight",
+        "summary": "我们的工作研究治疗策略优化中的离线强化学习，同时考虑数据支持范围与安全约束。"
+      }
+    },
+    "related": {
+      "page": "publications",
+      "section": "ogsrl",
+      "label_key": "publicationLink"
+    }
+  }
+]

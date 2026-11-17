@@ -12,7 +12,8 @@ DIST = ROOT / 'docs'
 COPY = json.loads((ROOT / 'content/copy.json').read_text())
 MEMBERS = json.loads((ROOT / 'content/members.json').read_text())
 PUBS = json.loads((ROOT / 'content/publications.json').read_text())
-PAGES = ['home', 'research', 'people', 'publications', 'life', 'join', 'contact', 'projects']
+PAGES = ['home', 'research', 'people', 'publications', 'life', 'join', 'contact', 'projects', 'news']
+NEWS = json.loads((ROOT / 'content/news.json').read_text())
 PROJECTS = json.loads((ROOT / 'content/projects.json').read_text())
 PERSONAL = 'https://sites.google.com/view/xunshen/home'
 SCHOLAR = 'https://scholar.google.com/citations?user=TPQUTVsAAAAJ&hl=ja'
@@ -63,7 +64,7 @@ def domain_icon(i):
     return f'<svg viewBox="0 0 34 34" aria-hidden="true">{paths[i]}</svg>'
 
 def header(lang,page,c):
-    nav=''.join(link(lang,p,c['nav'][PAGES.index(p)]).replace('<a ', '<a aria-current="page" ',1) if p==page else link(lang,p,c['nav'][PAGES.index(p)]) for p in ['research','projects','people','publications','life','join','contact'])
+    nav=''.join(link(lang,p,c['nav'][PAGES.index(p)]).replace('<a ', '<a aria-current="page" ',1) if p==page else link(lang,p,c['nav'][PAGES.index(p)]) for p in ['news','research','projects','people','publications','life','join','contact'])
     languages=''.join(link(l,page,label).replace('<a ',f'<a lang="{COPY[l]["lang"]}" aria-current="{str(l==lang).lower()}" ',1) for l,label in [('ja','日本語'),('en','EN'),('zh','中文')])
     return f'''<a class="skip-link" href="#main">{c['skip']}</a><header class="site-header"><div class="container header-inner">{link(lang,'home',logo()+'<div class="brand-name">EIGEN LAB<span class="brand-sub">'+c['lab']+'</span></div>','brand')}<button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">{c['menu']}</button><nav id="main-nav" class="main-nav" aria-label="{c['menu']}">{nav}</nav><nav class="languages" aria-label="Language">{languages}</nav></div></header>'''
 
@@ -81,9 +82,9 @@ def home(lang,c):
     pillars=''.join(f'<article class="pillar"><span class="num">0{i+1}</span><div><h3>{c["pillarTitles"][i]}</h3><p>{c["pillarText"][i]}</p><div class="tags">'+''.join(f'<span>{t}</span>' for t in c['pillarTags'][i])+'</div></div></article>' for i in range(2))
     domains=''.join(f'<div class="domain">{domain_icon(i)}<span>{x}</span></div>' for i,x in enumerate(c['domains']))
     themes=''.join(f'<article class="project">{project_art(i)}<div class="project-body"><div class="eyebrow">{c["projectTags"][i]}</div><h3>{c["projectTitles"][i]}</h3><p>{c["projectText"][i]}</p>{link(lang,"research",arrow(c["learn"]),"text-link",["prediction","decisions","adaptation"][i])}</div></article>' for i in range(3))
-    news=''.join(f'<article class="news-item"><time>{x[0]}</time><div><span class="news-category">{x[1]}</span><h3>'+link(lang,'life' if i<2 else 'publications',x[2],section=['nus','fujitsu','ogsrl'][i])+f'</h3><p>{x[3]}</p></div></article>' for i,x in enumerate(c['news']))
+    news=''.join(news_preview(lang,c,x) for x in NEWS[:3])
     featured=''.join(project_preview(lang,c,x) for x in PROJECTS if x['featured'])
-    return f'''<div class="container"><section class="hero"><div class="hero-copy"><div><div class="eyebrow">{c['homeEyebrow']}</div><h1>{c['hero']}</h1><p class="affiliation">{c['heroAffiliation']}</p></div><div class="hero-intro"><p class="lead">{c['heroLead']}</p><div class="actions">{link(lang,'research',arrow(c['researchBtn']),'button')}{link(lang,'projects',arrow(c['fundedBtn']),'text-link')}</div></div></div><figure class="hero-illustration">{pic('hero-science.webp',c['heroImageAlt'],False)}<figcaption>{c['illustrationCaption']}</figcaption></figure></section><a class="feature-strip" href="../{lang}/publications.html#ogsrl" data-route="{lang}/publications" data-section="ogsrl"><span class="tag">RESEARCH HIGHLIGHT</span><p>{c['feature']}<small>{c['featureNote']}</small></p><span class="feature-arrow" aria-hidden="true">↗</span></a><section class="section"><div class="section-head"><div><div class="eyebrow">{c['researchEyebrow']}</div><h2>{c['researchTitle']}</h2></div><p>{c['researchIntro']}</p></div><div class="pillars">{pillars}</div><div class="domain-band">{domains}</div></section></div><section class="section section-tint"><div class="container"><div class="section-head"><div><div class="eyebrow">{c['projectsEyebrow']}</div><h2>{c['projectsTitle']}</h2></div>{link(lang,'research',arrow(c['researchBtn']),'text-link')}</div><div class="project-grid">{themes}</div></div></section><section class="section"><div class="container"><div class="section-head"><div><div class="eyebrow">{c['fundedEyebrow']}</div><h2>{c['fundedTitle']}</h2></div>{link(lang,'projects',arrow(c['fundedBtn']),'text-link')}</div><div class="funded-grid">{featured}</div></div></section><section class="section section-tint"><div class="container news-grid"><div><div class="eyebrow">UPDATES</div><h2>{c['newsTitle']}</h2><p style="font-size:14px;color:var(--muted);margin-top:20px">{c['newsIntro']}</p></div><div class="news-list">{news}</div></div></section><section class="section"><div class="container life-teaser">{pic('source-p6-2.webp',c['story2Caption'])}<div><div class="eyebrow">LIFE IN THE LAB</div><h2>{c['lifeTitle']}</h2><p>{c['lifeText']}</p><div class="actions">{link(lang,'life',arrow(c['lifeBtn']),'text-link')}</div></div></div></section>{cta(lang,c)}'''
+    return f'''<div class="container"><section class="hero"><div class="hero-copy"><div><div class="eyebrow">{c['homeEyebrow']}</div><h1>{c['hero']}</h1><p class="affiliation">{c['heroAffiliation']}</p></div><div class="hero-intro"><p class="lead">{c['heroLead']}</p><div class="actions">{link(lang,'research',arrow(c['researchBtn']),'button')}{link(lang,'projects',arrow(c['fundedBtn']),'text-link')}</div></div></div><figure class="hero-illustration">{pic('hero-science.webp',c['heroImageAlt'],False)}<figcaption>{c['illustrationCaption']}</figcaption></figure></section><a class="feature-strip" href="../{lang}/publications.html#ogsrl" data-route="{lang}/publications" data-section="ogsrl"><span class="tag">RESEARCH HIGHLIGHT</span><p>{c['feature']}<small>{c['featureNote']}</small></p><span class="feature-arrow" aria-hidden="true">↗</span></a><section class="section"><div class="section-head"><div><div class="eyebrow">{c['researchEyebrow']}</div><h2>{c['researchTitle']}</h2></div><p>{c['researchIntro']}</p></div><div class="pillars">{pillars}</div><div class="domain-band">{domains}</div></section></div><section class="section section-tint"><div class="container"><div class="section-head"><div><div class="eyebrow">{c['projectsEyebrow']}</div><h2>{c['projectsTitle']}</h2></div>{link(lang,'research',arrow(c['researchBtn']),'text-link')}</div><div class="project-grid">{themes}</div></div></section><section class="section"><div class="container"><div class="section-head"><div><div class="eyebrow">{c['fundedEyebrow']}</div><h2>{c['fundedTitle']}</h2></div>{link(lang,'projects',arrow(c['fundedBtn']),'text-link')}</div><div class="funded-grid">{featured}</div></div></section><section class="section section-tint"><div class="container news-grid"><div><div class="eyebrow">UPDATES</div><h2>{c['newsTitle']}</h2><p style="font-size:14px;color:var(--muted);margin-top:20px">{c['newsIntro']}</p><div class="actions">{link(lang,'news',arrow(c['allNews']),'text-link')}</div></div><div class="news-list">{news}</div></div></section><section class="section"><div class="container life-teaser">{pic('source-p6-2.webp',c['story2Caption'])}<div><div class="eyebrow">LIFE IN THE LAB</div><h2>{c['lifeTitle']}</h2><p>{c['lifeText']}</p><div class="actions">{link(lang,'life',arrow(c['lifeBtn']),'text-link')}</div></div></div></section>{cta(lang,c)}'''
 
 
 def research(lang,c):
@@ -101,18 +102,36 @@ def research(lang,c):
 
 
 def member_card(m,lang,c):
+    name=m.get('names',{}).get(lang,m['name'])
     native=f'<span class="member-native">{e(m["native_name"])}</span>' if m.get('native_name') else ''
     affiliation=''
     if m.get('affiliation'):
         affiliation='<div class="member-affiliation">'+'<br>'.join(e(x) for x in m['affiliation'][lang])+f'</div><span class="coadvised-label">{c["coadvisedBy"]}</span>'
-    return f'<article class="member">{pic(m["image"],m["name"])}<h3>{e(m["name"])}{native}</h3><p>{c["topics"][m["topic"]]}</p>{affiliation}</article>'
+    portrait = pic(m['image'],name) if m.get('image') else f'<div class="member-placeholder"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="32" r="15"/><path d="M20 83v-7a30 30 0 0 1 60 0v7"/></svg><span>{e(c["photoSoon"])}</span></div>'
+    return f'<article class="member">{portrait}<h3>{e(name)}{native}</h3><p>{c["topics"][m["topic"]]}</p>{affiliation}</article>'
+
+def news_preview(lang,c,item):
+    text=item['translations'][lang]
+    return f'<article class="news-item"><time datetime="{e(item["date"])}">{e(item["date"].replace("-","."))}</time><div><span class="news-category">{e(text["category"])}</span><h3>{link(lang,"news",e(text["title"]),section=item["id"])}</h3><p>{e(text["summary"])}</p></div></article>'
+
+def news_page(lang,c):
+    articles=[]
+    for item in NEWS:
+        text=item['translations'][lang]
+        paragraphs=''.join(f'<p>{e(p)}</p>' for p in text.get('paragraphs',[text['summary']]))
+        sources=''.join(external(s['url'],arrow(e(s['label'][lang])),'text-link') for s in item.get('sources',[]))
+        if item.get('related'):
+            r=item['related']
+            sources+=link(lang,r['page'],arrow(e(c[r['label_key']])),'text-link',r.get('section',''))
+        articles.append(f'<article class="news-article" id="{e(item["id"])}"><div class="news-meta"><time datetime="{e(item["date"])}">{e(item["date"].replace("-","."))}</time><span class="news-category">{e(text["category"])}</span></div><div class="news-article-body"><h2>{e(text["title"])}</h2>{paragraphs}<div class="actions">{sources}</div></div></article>')
+    return f'<div class="container">{page_head(c,8,"newsLead")}<section class="news-archive" aria-label="{e(c["nav"][8])}">{"".join(articles)}</section></div>'
 
 def people(lang,c):
     groups=''
     for group in ['doctoral','coadvised','masters','undergrad']:
         members=[m for m in MEMBERS if m['group']==group]
         cards=''.join(member_card(m,lang,c) for m in members)
-        groups+=f'<section class="member-group"><div class="group-heading"><h2>{c["groups"][group]}</h2><span>{c["groupLabels"][group]}</span></div><div class="members-grid">{cards}</div></section>'
+        groups+=f'<section class="member-group" id="{group}"><div class="group-heading"><h2>{c["groups"][group]}</h2><span>{c["groupLabels"][group]}</span></div><div class="members-grid">{cards}</div></section>'
     return f'''<div class="container">{page_head(c,2,'peopleLead')}<section class="faculty"><div class="faculty-sign">{pic("xun-shen.png",c["facultyTitle"],False)}<div><h2>{c['facultyTitle']}</h2><p>{c['facultyRole']}</p></div></div><div class="faculty-body"><div class="eyebrow">PRINCIPAL INVESTIGATOR</div><h3>{c['facultyHeading']}</h3><p>{c['facultyBio']}</p><p>{c['facultyDegrees']}</p>{affiliations(c)}<div class="actions">{external(PERSONAL,arrow(c['personal']),'text-link')}{external(SCHOLAR,arrow('Google Scholar'),'text-link')}</div><p style="margin-top:25px"><a href="mailto:shen@go.tuat.ac.jp">shen@go.tuat.ac.jp</a></p></div></section><p class="roster-note">{c['rosterNote']}</p>{groups}</div>{cta(lang,c)}'''
 
 def publications(lang,c):
@@ -179,7 +198,7 @@ def projects(lang,c):
         items+=f'<article class="funded-project" id="{p["id"]}"><div class="funded-intro"><div><div class="eyebrow">{p["category"][lang]}</div><h2>{p["tagline"][lang]}</h2><h3>{p["title"][lang]}</h3><p class="project-meta">{p["grant"]} · {p["period"][lang]}<br>{role}</p></div><figure>{pic(p["image"],p.get("image_alt",p["tagline"])[lang])}</figure></div><div class="funded-details"><div><p class="project-summary">{p["summary"][lang]}</p><p class="institutional-note">{p["institutional_note"][lang]}</p><div class="actions">{sources}</div></div><div class="project-goals"><h3>{goals_heading}</h3><ol>{goals}</ol></div></div></article>'
     return f'<div class="container">{page_head(c,7,"fundedLead")}{items}<p class="illustration-note">{c["projectIllustrationNote"]}</p><section class="past-section"><h2>{c["projectPast"]}</h2><div class="past-grid">{past}</div></section></div>{cta(lang,c)}'
 
-RENDER={'projects':projects,'home':home,'research':research,'people':people,'publications':publications,'life':life,'join':join,'contact':contact}
+RENDER={'news':news_page,'projects':projects,'home':home,'research':research,'people':people,'publications':publications,'life':life,'join':join,'contact':contact}
 
 def body(lang,page):
     c=COPY[lang]
@@ -251,7 +270,7 @@ def main():
             prefix=base if args.production else '..'
             hreflangs=''.join(f'<link rel="alternate" hreflang="{COPY[l]["lang"]}" href="{prefix}/{l}/{filename}.html">' for l in COPY)
             canonical=f'<link rel="canonical" href="{base}/{lang}/{filename}.html"><link rel="alternate" hreflang="x-default" href="{base}/ja/{filename}.html">' if args.production else ''
-            doc=f'''<!doctype html><html lang="{c['lang']}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="{robots}"><title>{e(title)}</title><meta name="description" content="{e(c['heroLead'])}">{canonical}{hreflangs}<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css"><script src="../assets/site.js" defer></script></head><body data-lang="{lang}" data-page="{page}"><div id="app">{content}</div></body></html>'''
+            doc=f'''<!doctype html><html lang="{c['lang']}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="{robots}"><title>{e(title)}</title><meta name="description" content="{e(c['newsLead'] if page=='news' else c['heroLead'])}">{canonical}{hreflangs}<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/site.css"><script src="../assets/site.js" defer></script></head><body data-lang="{lang}" data-page="{page}"><div id="app">{content}</div></body></html>'''
             (folder/f'{filename}.html').write_text(doc)
             page_data[f'{lang}/{page}']={'html':content,'title':title,'lang':c['lang']}
     (DIST/'index.html').write_text('<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="robots" content="noindex,nofollow"><meta http-equiv="refresh" content="0;url=ja/index.html"><title>Eigen Lab</title></head><body><a href="ja/index.html">日本語</a> · <a href="en/index.html">English</a> · <a href="zh/index.html">中文</a></body></html>')

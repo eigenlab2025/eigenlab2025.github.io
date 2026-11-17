@@ -90,5 +90,23 @@ body{font-family:var(--sans)}h1,h2,h3,h4{font-family:var(--sans);font-weight:700
 
 .past-project{scroll-margin-top:115px}
 
+/* News archive and members whose photographs have not yet arrived. */
+.news-archive{padding-bottom:72px}
+.news-article{display:grid;grid-template-columns:155px minmax(0,1fr);gap:45px;padding:38px 0;border-top:1px solid var(--line);scroll-margin-top:125px}
+.news-meta time{font-size:13px;color:var(--muted)}
+.news-meta .news-category{margin-top:14px;font-size:11px}
+.news-article-body{max-width:860px}
+.news-article h2{font-size:25px;line-height:1.6;margin-bottom:22px;overflow-wrap:anywhere}
+.news-article p{font-size:15px;line-height:1.95;margin-top:15px}
+.news-article .actions{flex-wrap:wrap;margin-top:24px}
+.news-item h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+.member-placeholder{aspect-ratio:1/1;background:#edf5fa;border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:var(--muted)}
+.member-placeholder svg{width:42%;fill:none;stroke:#8199ad;stroke-width:2.3}
+.member-placeholder span{font-size:12px}
+.member-group{scroll-margin-top:125px}
+@media(min-width:851px){#undergrad .members-grid{grid-template-columns:repeat(3,1fr)}}
+@media screen and (min-width:851px) and (max-width:1200px){.main-nav{display:none}.menu-toggle{display:block}.header-inner{position:relative}.main-nav.open{position:absolute;top:100%;left:0;right:0;display:flex;flex-direction:column;align-items:stretch;background:#fff;padding:20px 30px;border-bottom:1px solid var(--line);gap:3px!important}.main-nav>a{font-size:15px}}
+@media(max-width:600px){.news-article{grid-template-columns:1fr;gap:15px;padding:28px 0}.news-meta{display:flex;align-items:center;gap:18px}.news-meta .news-category{margin:0}.news-article h2{font-size:21px;margin-bottom:16px}.news-article p{font-size:14px}.news-archive{padding-bottom:45px}.member-placeholder span{font-size:10px}}
+
 /* Principal investigator portrait supplied by Xun Shen. */
 .faculty-sign{padding:0;display:block;overflow:hidden;background:#f5f7f7}.faculty-sign>img{display:block;width:100%;height:auto;aspect-ratio:728/816;object-fit:contain}.faculty-sign>div{padding:24px 28px}.faculty-sign h2{margin:0 0 5px}.faculty-sign p{margin:0}

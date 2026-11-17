@@ -9,7 +9,8 @@
       "Lab life",
       "Join us",
       "Contact",
-      "Research projects"
+      "Research projects",
+      "News"
     ],
     "university": "Tokyo University of Agriculture and Technology",
     "department": "Institute of Engineering · Division of Electrical Engineering and Computer Science",
@@ -79,28 +80,8 @@
       "Optimization, learning, and control",
       "Personalization and adaptation"
     ],
-    "newsTitle": "News & activities",
-    "newsIntro": "A selection of moments from the lab.",
-    "news": [
-      [
-        "2026.09",
-        "RESEARCH EXCHANGE",
-        "A student presentation at NUS",
-        "三歩一尚志 presented at the 10th NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence in Singapore, 24–26 September 2026."
-      ],
-      [
-        "2026.02",
-        "LAB ACTIVITY",
-        "A visit to Fujitsu",
-        "Lab members joined a company visit and explored Fujitsu’s history."
-      ],
-      [
-        "2025",
-        "PUBLICATION",
-        "OGSRL selected as a NeurIPS Spotlight",
-        "Our work examines data support and safety constraints in offline reinforcement learning for treatment optimization."
-      ]
-    ],
+    "newsTitle": "News",
+    "newsIntro": "New members, achievements and activities from our lab.",
     "lifeEyebrow": "LIFE IN THE LAB",
     "lifeTitle": "A place to ask better questions.",
     "lifeText": "We work across theory, algorithms, and implementation. Students build foundations, reproduce existing methods, and turn unanswered questions into research—with support from faculty and senior students.",
@@ -146,7 +127,7 @@
     "facultyBio": "Based at TUAT, Xun Shen studies chance-constrained optimization, statistical machine learning, and safe reinforcement learning. His background in engineering and statistical sciences connects mathematical theory with problems in health, mobility, and energy.",
     "facultyDegrees": "PhD in Engineering · PhD in Statistical Sciences",
     "personal": "Personal website",
-    "rosterNote": "Member information as of October 2026. The affiliations of co-supervised students at Institute of Science Tokyo were confirmed in November 2026.",
+    "rosterNote": "Member information as of November 2026. Co-supervised students at Institute of Science Tokyo are listed with their affiliations.",
     "groups": {
       "doctoral": "Doctoral students",
       "masters": "Master’s student",
@@ -156,7 +137,7 @@
     "groupLabels": {
       "doctoral": "D1 · October 2026",
       "masters": "M1 · October 2026",
-      "undergrad": "B4 · October 2026",
+      "undergrad": "B3 / B4 · As of November 2026",
       "coadvised": "Institute of Science Tokyo"
     },
     "topics": {
@@ -165,7 +146,8 @@
       "learning": "Learning & decision-making",
       "acoustic": "Acoustic distance estimation",
       "masters": "Master’s program",
-      "doctoral_oct2026": "Doctoral student · Enrolled October 2026"
+      "doctoral_oct2026": "Doctoral student · Enrolled October 2026",
+      "undergrad_nov2026": "Third-year undergraduate · Joined November 2026"
     },
     "publicationsLead": "Xun Shen’s research publications, including journal articles, conference papers, invited talks, theses, and a patent application. Titles are shown in their original language.",
     "search": "Search titles, authors, or venues",
@@ -334,7 +316,13 @@
     "coadvisedGroup": "Institute of Science Tokyo",
     "coadvisedBy": "Co-supervised by Xun Shen",
     "coadvisedPaper": "Co-supervised student",
-    "projectGoalSource": "Goal 2 (Cabinet Office)"
+    "projectGoalSource": "Goal 2 (Cabinet Office)",
+    "allNews": "All news",
+    "newsLead": "Awards, new members, and research and exchange activities at Shen Laboratory.",
+    "photoSoon": "Photo coming soon",
+    "membersLink": "Meet our undergraduate students",
+    "activityLink": "Read about this activity",
+    "publicationLink": "View the publication"
   },
   "ja": {
     "lang": "ja",
@@ -346,7 +334,8 @@
       "研究室の日々",
       "参加希望の方へ",
       "連絡先",
-      "研究プロジェクト"
+      "研究プロジェクト",
+      "お知らせ"
     ],
     "university": "東京農工大学",
     "department": "工学研究院 知能情報システム工学部門",
@@ -416,28 +405,8 @@
       "最適化・学習・制御",
       "個別化・適応・協働"
     ],
-    "newsTitle": "ニュース・活動",
-    "newsIntro": "研究室での出来事をご紹介します。",
-    "news": [
-      [
-        "2026.09",
-        "研究交流",
-        "NUSで学生が研究発表",
-        "三歩一尚志さんが、2026年9月24〜26日にシンガポールで開催された第10回 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligenceで発表しました。"
-      ],
-      [
-        "2026.02",
-        "研究室の活動",
-        "富士通の見学に参加",
-        "研究室のメンバーが富士通を訪問し、歴史館を見学しました。"
-      ],
-      [
-        "2025",
-        "論文",
-        "OGSRLがNeurIPS Spotlightに採択",
-        "医療の治療方策最適化に向け、データによる裏付けと安全制約を考慮したオフライン強化学習を研究しました。"
-      ]
-    ],
+    "newsTitle": "お知らせ",
+    "newsIntro": "研究室の新しい仲間、受賞、研究活動をお届けします。",
     "lifeEyebrow": "LIFE IN THE LAB",
     "lifeTitle": "問いを深める、研究の場。",
     "lifeText": "理論・アルゴリズム・実装を一貫して考えます。基礎を学び、既存手法を再現し、まだ答えのない問いを見つける。教員や先輩と相談しながら、自分の研究へと育てていきます。",
@@ -483,7 +452,7 @@
     "facultyBio": "東京農工大学を拠点に、確率制約付き最適化、統計的機械学習、安全強化学習を研究。博士（工学）と博士（統計科学）の背景を生かし、数理理論から医療・モビリティ・エネルギーの実問題へと研究を展開しています。",
     "facultyDegrees": "博士（工学） · 博士（統計科学）",
     "personal": "個人ウェブサイト",
-    "rosterNote": "2026年10月のメンバー情報。東京科学大学に所属する共同指導学生の所属情報は、2026年11月に確認しています。",
+    "rosterNote": "2026年11月現在のメンバー情報。東京科学大学に所属する共同指導学生は、所属を個別に記載しています。",
     "groups": {
       "doctoral": "博士後期課程",
       "masters": "修士課程",
@@ -493,7 +462,7 @@
     "groupLabels": {
       "doctoral": "D1 · 2026年10月時点",
       "masters": "M1 · 2026年10月時点",
-      "undergrad": "B4 · 2026年10月時点",
+      "undergrad": "B3・B4 · 2026年11月現在",
       "coadvised": "東京科学大学"
     },
     "topics": {
@@ -502,7 +471,8 @@
       "learning": "学習と意思決定",
       "acoustic": "音響情報からの距離推定",
       "masters": "修士課程",
-      "doctoral_oct2026": "博士後期課程 · 2026年10月入学"
+      "doctoral_oct2026": "博士後期課程 · 2026年10月入学",
+      "undergrad_nov2026": "学部3年 · 2026年11月配属"
     },
     "publicationsLead": "瀋迅の研究業績一覧。学術雑誌論文・国際会議論文に加え、招待講演・学位論文・特許出願を掲載しています。論文タイトルは原題で紹介しています。",
     "search": "タイトル・著者・掲載先で検索",
@@ -671,7 +641,13 @@
     "coadvisedGroup": "東京科学大学",
     "coadvisedBy": "共同指導：瀋迅",
     "coadvisedPaper": "共同指導学生を含む",
-    "projectGoalSource": "目標2（内閣府）"
+    "projectGoalSource": "目標2（内閣府）",
+    "allNews": "すべてのお知らせ",
+    "newsLead": "瀋研究室の受賞、メンバーの加入、研究・交流活動をご紹介します。",
+    "photoSoon": "写真準備中",
+    "membersLink": "学部生メンバーを見る",
+    "activityLink": "活動の詳細を見る",
+    "publicationLink": "論文の詳細を見る"
   },
   "zh": {
     "lang": "zh-CN",
@@ -683,7 +659,8 @@
       "实验室生活",
       "加入我们",
       "联系我们",
-      "研究项目"
+      "研究项目",
+      "新闻动态"
     ],
     "university": "东京农工大学",
     "department": "工学研究院 · 智能信息系统工学部门",
@@ -753,28 +730,8 @@
       "优化、学习与控制",
       "个性化、适应与协作"
     ],
-    "newsTitle": "新闻与活动",
-    "newsIntro": "记录实验室的研究与交流。",
-    "news": [
-      [
-        "2026.09",
-        "学术交流",
-        "学生在新加坡国立大学发表研究",
-        "三歩一尚志于2026年9月24日至26日在新加坡举行的第10届 NUS-ZIB-ISCT-ISM-MODAL Workshop on Algorithmic Intelligence上发表研究。"
-      ],
-      [
-        "2026.02",
-        "实验室活动",
-        "参观富士通",
-        "实验室成员参加企业参访，了解富士通的发展历史。"
-      ],
-      [
-        "2025",
-        "论文",
-        "OGSRL入选NeurIPS Spotlight",
-        "我们的工作研究治疗策略优化中的离线强化学习，同时考虑数据支持范围与安全约束。"
-      ]
-    ],
+    "newsTitle": "新闻动态",
+    "newsIntro": "分享实验室的新成员、获奖消息与研究活动。",
     "lifeEyebrow": "LIFE IN THE LAB",
     "lifeTitle": "让问题不断深入的地方。",
     "lifeText": "我们贯通理论、算法与实现。学生从学习基础和复现已有方法出发，在教师与高年级同学的支持下，将尚未解决的问题发展为自己的研究。",
@@ -820,7 +777,7 @@
     "facultyBio": "沈迅以东京农工大学为研究基地，研究概率约束优化、统计机器学习与安全强化学习。结合工学和统计科学的博士研究背景，将数学理论与医疗、交通和能源领域的实际问题连接起来。",
     "facultyDegrees": "工学博士 · 统计科学博士",
     "personal": "个人网站",
-    "rosterNote": "成员信息以2026年10月为准。东京科学大学共同指导学生的所属信息已于2026年11月确认。",
+    "rosterNote": "成员信息更新至2026年11月。东京科学大学共同指导学生的所属信息已分别注明。",
     "groups": {
       "doctoral": "博士生",
       "masters": "硕士生",
@@ -830,7 +787,7 @@
     "groupLabels": {
       "doctoral": "D1 · 截至2026年10月",
       "masters": "M1 · 截至2026年10月",
-      "undergrad": "B4 · 截至2026年10月",
+      "undergrad": "本科三、四年级 · 截至2026年11月",
       "coadvised": "东京科学大学"
     },
     "topics": {
@@ -839,7 +796,8 @@
       "learning": "学习与决策",
       "acoustic": "声学距离估计",
       "masters": "硕士课程",
-      "doctoral_oct2026": "博士研究生 · 2026年10月入学"
+      "doctoral_oct2026": "博士研究生 · 2026年10月入学",
+      "undergrad_nov2026": "本科三年级 · 2026年11月加入"
     },
     "publicationsLead": "沈迅的研究成果目录，包括期刊论文、会议论文、邀请报告、学位论文与专利申请。论文题目保留原文。",
     "search": "搜索标题、作者或发表刊物",
@@ -1008,6 +966,12 @@
     "coadvisedGroup": "东京科学大学",
     "coadvisedBy": "共同指导教师：沈迅",
     "coadvisedPaper": "含共同指导学生",
-    "projectGoalSource": "目标2（内阁府）"
+    "projectGoalSource": "目标2（内阁府）",
+    "allNews": "查看全部新闻",
+    "newsLead": "记录沈迅实验室的获奖消息、新成员加入以及研究与学术交流活动。",
+    "photoSoon": "照片待更新",
+    "membersLink": "认识我们的本科生成员",
+    "activityLink": "了解活动详情",
+    "publicationLink": "查看论文详情"
   }
 }
